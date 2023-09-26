@@ -269,7 +269,7 @@
     <!-- Location Modal End -->
 
     <!-- Cookie Bar Box Start -->
-    <div class="cookie-bar-box">
+    <!--<div class="cookie-bar-box">
         <div class="cookie-box">
             <div class="cookie-image">
                 <img src="../assets/images/cookie-bar.png" class="blur-up lazyload" alt="">
@@ -285,7 +285,7 @@
             <button class="btn privacy-button">Privacy Policy</button>
             <button class="btn ok-button">OK</button>
         </div>
-    </div>
+    </div>-->
     <!-- Cookie Bar Box End -->
 
     <!-- Deal Box Modal Start -->
@@ -369,7 +369,7 @@
     <!-- Deal Box Modal End -->
 
     <!-- Tap to top start -->
-    <div class="theme-option">
+    <!--<div class="theme-option">
         <div class="setting-box">
             <button class="btn setting-button">
                 <i class="fa-solid fa-gear"></i>
@@ -420,10 +420,10 @@
                 <i class="fas fa-chevron-up"></i>
             </a>
         </div>
-    </div>
+    </div>-->
     <!-- Tap to top end -->
 
-    <div class="setting-box buy-now mt-2"><a class="btn setting-button" href="https://1.envato.market/gbvkjA" target="_blank"><i class="fa-solid fa fa-cart-flatbed"></i></a></div>
+    <!--<div class="setting-box buy-now mt-2"><a class="btn setting-button" href="https://1.envato.market/gbvkjA" target="_blank"><i class="fa-solid fa fa-cart-flatbed"></i></a></div>-->
 
     <!-- Bg overlay Start -->
     <div class="bg-overlay"></div>
