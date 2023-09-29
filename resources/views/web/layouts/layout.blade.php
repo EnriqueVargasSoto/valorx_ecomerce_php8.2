@@ -83,8 +83,8 @@
 
                         <div class="col-lg-6">
                             <div class="right-sidebar-modal">
-                                <h4 class="title-name">Peanut Butter Bite Premium Butter Cookies 600 g</h4>
-                                <h4 class="price">$36.99</h4>
+                                <h4 class="title-name">Galletas de mantequilla premium 600 g</h4>
+                                <h4 class="price">S/. 36.99</h4>
                                 <div class="product-rating">
                                     <ul class="rating">
                                         <li>
@@ -103,60 +103,60 @@
                                             <i data-feather="star"></i>
                                         </li>
                                     </ul>
-                                    <span class="ms-2">8 Reviews</span>
-                                    <span class="ms-2 text-danger">6 sold in last 16 hours</span>
+                                    <span class="ms-2">8 reseñas</span>
+                                    <span class="ms-2 text-danger">6 vendidos en las últimas 16 horas</span>
                                 </div>
 
                                 <div class="product-detail">
-                                    <h4>Product Details :</h4>
-                                    <p>Candy canes sugar plum tart cotton candy chupa chups sugar plum chocolate I love.
-                                        Caramels marshmallow icing dessert candy canes I love soufflé I love toffee.
-                                        Marshmallow pie sweet sweet roll sesame snaps tiramisu jelly bear claw. Bonbon
-                                        muffin I love carrot cake sugar plum dessert bonbon.</p>
+                                    <h4>Detalle de Productos :</h4>
+                                    <p>Bastones de caramelo, azúcar, ciruela, tarta, algodón de azúcar, chupa chups, azúcar, ciruela, chocolate, me encanta.
+                                        Caramelos, glaseado de malvaviscos, postre, bastones de caramelo. Me encanta el soufflé. Me encanta el toffee.
+                                        Pastel de malvavisco, dulce rollo dulce, tiramisú, gelatina, garra de oso. Caramelo
+                                        muffin Me encanta el pastel de zanahoria, el azúcar, el bombón de postre de ciruela.</p>
                                 </div>
 
                                 <ul class="brand-list">
                                     <li>
                                         <div class="brand-box">
-                                            <h5>Brand Name:</h5>
-                                            <h6>Black Forest</h6>
+                                            <h5>Nombre de Marca</h5>
+                                            <h6>Bosque Negro</h6>
                                         </div>
                                     </li>
 
                                     <li>
                                         <div class="brand-box">
-                                            <h5>Product Code:</h5>
+                                            <h5>Codigo Producto:</h5>
                                             <h6>W0690034</h6>
                                         </div>
                                     </li>
 
                                     <li>
                                         <div class="brand-box">
-                                            <h5>Product Type:</h5>
-                                            <h6>White Cream Cake</h6>
+                                            <h5>Tipo de Prodcuto</h5>
+                                            <h6>Pastel De Crema Blanca</h6>
                                         </div>
                                     </li>
                                 </ul>
 
                                 <div class="select-size">
-                                    <h4>Cake Size :</h4>
+                                    <h4>Tamaño de la torata :</h4>
                                     <select class="form-select select-form-size">
-                                        <option selected>Select Size</option>
+                                        <option selected>Selcciona Tamaño</option>
                                         <option value="1.2">1/2 KG</option>
                                         <option value="0">1 KG</option>
                                         <option value="1.5">1/5 KG</option>
-                                        <option value="red">Red Roses</option>
-                                        <option value="pink">With Pink Roses</option>
+                                        <option value="red">Rosas rojas</option>
+                                        <option value="pink">Con rosas rosadas</option>
                                     </select>
                                 </div>
 
                                 <div class="modal-button">
                                     <button onclick="location.href = 'cart.html';"
-                                        class="btn btn-md add-cart-button icon">Add
-                                        To Cart</button>
+                                        class="btn btn-md add-cart-button icon">Añadir
+                                    al carrito</button>
                                     <button onclick="location.href = 'product-left.html';"
                                         class="btn theme-bg-color view-button icon text-white fw-bold btn-md">
-                                        View More Details</button>
+                                        Ver mas detalles</button>
                                 </div>
                             </div>
                         </div>
@@ -173,8 +173,8 @@
         <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Choose your Delivery Location</h5>
-                    <p class="mt-1 text-content">Enter your address and we will specify the offer for your area.</p>
+                    <h5 class="modal-title" id="exampleModalLabel">Elija su lugar de entrega</h5>
+                    <p class="mt-1 text-content">Introduce tu dirección y te concretaremos la oferta para tu zona.</p>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
@@ -187,77 +187,77 @@
                         </div>
 
                         <div class="disabled-box">
-                            <h6>Select a Location</h6>
+                            <h6>Selecciona una ubicación</h6>
                         </div>
 
                         <ul class="location-select custom-height">
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Alabama</h6>
-                                    <span>Min: $130</span>
+                                    <h6>Surco</h6>
+                                    <span>Min: S/. 130</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Arizona</h6>
-                                    <span>Min: $150</span>
+                                    <h6>Miraflores</h6>
+                                    <span>Min: S/. 150</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>California</h6>
-                                    <span>Min: $110</span>
+                                    <h6>San Miguel</h6>
+                                    <span>Min: S/. 110</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Colorado</h6>
-                                    <span>Min: $140</span>
+                                    <h6>Jesus Maria</h6>
+                                    <span>Min: S/. 140</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Florida</h6>
-                                    <span>Min: $160</span>
+                                    <h6>Lince</h6>
+                                    <span>Min: S/. 160</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Georgia</h6>
-                                    <span>Min: $120</span>
+                                    <h6>La Molina</h6>
+                                    <span>Min: S/. 120</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Kansas</h6>
-                                    <span>Min: $170</span>
+                                    <h6>Ate</h6>
+                                    <span>Min: S/. 170</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Minnesota</h6>
-                                    <span>Min: $120</span>
+                                    <h6>Chorrillos</h6>
+                                    <span>Min: S/. 120</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>New York</h6>
-                                    <span>Min: $110</span>
+                                    <h6>Barranco</h6>
+                                    <span>Min: S/. 110</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="javascript:void(0)">
-                                    <h6>Washington</h6>
-                                    <span>Min: $130</span>
+                                    <h6>Lima</h6>
+                                    <span>Min: S/. 130</span>
                                 </a>
                             </li>
                         </ul>
@@ -295,8 +295,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <div>
-                        <h5 class="modal-title w-100" id="deal_today">Deal Today</h5>
-                        <p class="mt-1 text-content">Recommended deals for you.</p>
+                        <h5 class="modal-title w-100" id="deal_today">Oferta de Hoy</h5>
+                        <p class="mt-1 text-content">Ofertas recomendadas para ti.</p>
                     </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                         <i class="fa-solid fa-xmark"></i>
@@ -313,8 +313,8 @@
                                     </a>
 
                                     <a href="shop-left-sidebar.html" class="deal-contain">
-                                        <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
-                                        <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
+                                        <h5>Café instantáneo mezclado 50 g Compre 1 y obtenga 1 gratis</h5>
+                                        <h6>S/. 52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
                                 </div>
                             </li>
@@ -327,8 +327,8 @@
                                     </a>
 
                                     <a href="shop-left-sidebar.html" class="deal-contain">
-                                        <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
-                                        <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
+                                        <h5>Café instantáneo mezclado 50 g Compre 1 y obtenga 1 gratis</h5>
+                                        <h6>S/. 52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
                                 </div>
                             </li>
@@ -341,8 +341,8 @@
                                     </a>
 
                                     <a href="shop-left-sidebar.html" class="deal-contain">
-                                        <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
-                                        <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
+                                        <h5>Café instantáneo mezclado 50 g Compre 1 y obtenga 1 gratis</h5>
+                                        <h6>S/. 52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
                                 </div>
                             </li>
@@ -355,8 +355,8 @@
                                     </a>
 
                                     <a href="shop-left-sidebar.html" class="deal-contain">
-                                        <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
-                                        <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
+                                        <h5>Café instantáneo mezclado 50 g Compre 1 y obtenga 1 gratis</h5>
+                                        <h6>S/. 52.57 <del>57.62</del> <span>500 G</span></h6>
                                     </a>
                                 </div>
                             </li>
