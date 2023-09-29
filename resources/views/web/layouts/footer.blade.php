@@ -20,7 +20,7 @@
                             </div>
 
                             <div class="service-detail">
-                                <h5>Entrega Gratuita Para Pedidos<br>Superiores a $ 50</h5>
+                                <h5>Entrega Gratuita Para Pedidos<br>Superiores a S/. 50</h5>
                             </div>
                         </div>
 
@@ -59,16 +59,16 @@
                         </div>
 
                         <div class="footer-logo-contain">
-                            <p>Somos un bar acogedor que sirve una variedad de cócteles, vinos y cervezas. Nuestro bar es un lugar perfecto para una pareja.</p>
+                            <p>Somos @tiendo, tu lugar favorito para adquirir todo lo que necesitas.</p>
 
                             <ul class="address">
                                 <li>
                                     <i data-feather="home"></i>
-                                    <a href="javascript:void(0)">1418 Riverwood Drive, CA 96052, US</a>
+                                    <a href="javascript:void(0)">Lima -Perú</a>
                                 </li>
                                 <li>
                                     <i data-feather="mail"></i>
-                                    <a href="javascript:void(0)">support@fastkart.com</a>
+                                    <a href="javascript:void(0)">soporte@atiendo.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -83,22 +83,22 @@
                     <div class="footer-contain">
                         <ul>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Vegetables & Fruit</a>
+                                <a href="shop-left-sidebar.html" class="text-content">Verduras y frutas</a>
                             </li>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Beverages</a>
+                                <a href="shop-left-sidebar.html" class="text-content">Bebidas</a>
                             </li>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Meats & Seafood</a>
+                                <a href="shop-left-sidebar.html" class="text-content">Carnes & Mariscos</a>
                             </li>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Frozen Foods</a>
+                                <a href="shop-left-sidebar.html" class="text-content">Comidas Congeladas</a>
                             </li>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Biscuits & Snacks</a>
+                                <a href="shop-left-sidebar.html" class="text-content">Galletas & Bocadillos/a>
                             </li>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Grocery & Staples</a>
+                                <a href="shop-left-sidebar.html" class="text-content">Abarrotes</a>
                             </li>
                         </ul>
                     </div>
@@ -112,19 +112,19 @@
                     <div class="footer-contain">
                         <ul>
                             <li>
-                                <a href="index-2.html" class="text-content">Home</a>
+                                <a href="index-2.html" class="text-content">Inicio</a>
                             </li>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Shop</a>
+                                <a href="shop-left-sidebar.html" class="text-content">Tienda</a>
                             </li>
                             <li>
-                                <a href="about-us.html" class="text-content">About Us</a>
+                                <a href="about-us.html" class="text-content">Sobre Nosotros</a>
                             </li>
                             <li>
                                 <a href="blog-list.html" class="text-content">Blog</a>
                             </li>
                             <li>
-                                <a href="contact-us.html" class="text-content">Contact Us</a>
+                                <a href="contact-us.html" class="text-content">Contactanos</a>
                             </li>
                         </ul>
                     </div>
@@ -138,19 +138,19 @@
                     <div class="footer-contain">
                         <ul>
                             <li>
-                                <a href="order-success.html" class="text-content">Your Order</a>
+                                <a href="order-success.html" class="text-content">Su pedido</a>
                             </li>
                             <li>
-                                <a href="user-dashboard.html" class="text-content">Your Account</a>
+                                <a href="user-dashboard.html" class="text-content">Su cuenta</a>
                             </li>
                             <li>
-                                <a href="order-tracking.html" class="text-content">Track Order</a>
+                                <a href="order-tracking.html" class="text-content">Orden</a>
                             </li>
                             <li>
-                                <a href="wishlist.html" class="text-content">Your Wishlist</a>
+                                <a href="wishlist.html" class="text-content">Tu lista</a>
                             </li>
                             <li>
-                                <a href="search.html" class="text-content">Search</a>
+                                <a href="search.html" class="text-content">Buscar</a>
                             </li>
                             <li>
                                 <a href="faq.html" class="text-content">FAQ</a>
@@ -170,8 +170,8 @@
                                 <div class="footer-number">
                                     <i data-feather="phone"></i>
                                     <div class="contact-number">
-                                        <h6 class="text-content">Hotline 24/7 :</h6>
-                                        <h5>+91 888 104 2340</h5>
+                                        <h6 class="text-content">Linea directa 24/7 :</h6>
+                                        <h5>+51 954 854 615</h5>
                                     </div>
                                 </div>
                             </li>
@@ -180,8 +180,8 @@
                                 <div class="footer-number">
                                     <i data-feather="mail"></i>
                                     <div class="contact-number">
-                                        <h6 class="text-content">Email Address :</h6>
-                                        <h5>fastkart@hotmail.com</h5>
+                                        <h6 class="text-content">Correo Electronico :</h6>
+                                        <h5>pedidos@atiendo.com</h5>
                                     </div>
                                 </div>
                             </li>
