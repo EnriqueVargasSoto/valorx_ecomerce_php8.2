@@ -162,7 +162,7 @@
                                         </div>
                                         <div class="delivery-detail">
                                             <h6>24/7 Delivery</h6>
-                                            <h5>+91 888 104 2340</h5>
+                                            <h5>+51 985 854 741</h5>
                                         </div>
                                     </a>
                                 </li>
@@ -176,7 +176,7 @@
                                         <button type="button" class="btn p-0 position-relative header-wishlist">
                                             <i data-feather="shopping-cart"></i>
                                             <span class="position-absolute top-0 start-100 translate-middle badge">2
-                                                <span class="visually-hidden">unread messages</span>
+                                                <span class="visually-hidden">mensajes no leídos</span>
                                             </span>
                                         </button>
 
@@ -191,9 +191,9 @@
 
                                                         <div class="drop-contain">
                                                             <a href="product-left-thumbnail.html">
-                                                                <h5>Fantasy Crunchy Choco Chip Cookies</h5>
+                                                                <h5>Galletas crujientes de chocolate con chispas de fantasía</h5>
                                                             </a>
-                                                            <h6><span>1 x</span> $80.58</h6>
+                                                            <h6><span>1 x</span> S/. 80.58</h6>
                                                             <button class="close-button close_button">
                                                                 <i class="fa-solid fa-xmark"></i>
                                                             </button>
@@ -210,10 +210,10 @@
 
                                                         <div class="drop-contain">
                                                             <a href="product-left-thumbnail.html">
-                                                                <h5>Peanut Butter Bite Premium Butter Cookies 600 g
+                                                                <h5>Galletas de mantequilla premium 600 g
                                                                 </h5>
                                                             </a>
-                                                            <h6><span>1 x</span> $25.68</h6>
+                                                            <h6><span>1 x</span> S/. 25.68</h6>
                                                             <button class="close-button close_button">
                                                                 <i class="fa-solid fa-xmark"></i>
                                                             </button>
@@ -224,13 +224,13 @@
 
                                             <div class="price-box">
                                                 <h5>Total :</h5>
-                                                <h4 class="theme-color fw-bold">$106.58</h4>
+                                                <h4 class="theme-color fw-bold">S/. 106.58</h4>
                                             </div>
 
                                             <div class="button-group">
                                                 <a href="#" class="btn btn-sm cart-button">Ver Carrito</a>
                                                 <a href="#" class="btn btn-sm cart-button theme-bg-color
-                                                text-white">Checkout</a>
+                                                text-white">Verificar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -241,8 +241,8 @@
                                             <i data-feather="user"></i>
                                         </div>
                                         <div class="delivery-detail">
-                                            <h6>Hello,</h6>
-                                            <h5>My cuenta</h5>
+                                            <h6>Hola,</h6>
+                                            <h5>Mi cuenta</h5>
                                         </div>
                                     </div>
 
@@ -300,58 +300,58 @@
                                     <div class="onhover-category-box">
                                         <div class="list-1">
                                             <div class="category-title-box">
-                                                <h5>Organic Vegetables</h5>
+                                                <h5>Vegetales Organicos</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Potato & Tomato</a>
+                                                    <a href="javascript:void(0)">Papa & Tomate</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Cucumber & Capsicum</a>
+                                                    <a href="javascript:void(0)">Pepino y Pimiento</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Leafy Vegetables</a>
+                                                    <a href="javascript:void(0)">Vegetales de hoja</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Root Vegetables</a>
+                                                    <a href="javascript:void(0)">Verduras de raíz</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Beans & Okra</a>
+                                                    <a href="javascript:void(0)">Frijoles</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Cabbage & Cauliflower</a>
+                                                    <a href="javascript:void(0)">Repollo & Coliflor</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Gourd & Drumstick</a>
+                                                    <a href="javascript:void(0)">Calabaza</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Specialty</a>
+                                                    <a href="javascript:void(0)">Especiales</a>
                                                 </li>
                                             </ul>
                                         </div>
 
                                         <div class="list-2">
                                             <div class="category-title-box">
-                                                <h5>Fresh Fruit</h5>
+                                                <h5>Fruta Fresca</h5>
                                             </div>
                                             <ul>
                                                 <li>
                                                     <a href="javascript:void(0)">Banana & Papaya</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Kiwi, Citrus Fruit</a>
+                                                    <a href="javascript:void(0)">Kiwi, Fruta Citrica</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Apples & Pomegranate</a>
+                                                    <a href="javascript:void(0)">Manzana & Granada</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Seasonal Fruits</a>
+                                                    <a href="javascript:void(0)">Frutas de Temporada</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Mangoes</a>
+                                                    <a href="javascript:void(0)">Mangos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Fruit Baskets</a>
+                                                    <a href="javascript:void(0)">Cestas de Fruta</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -368,29 +368,29 @@
                                     <div class="onhover-category-box w-100">
                                         <div class="list-1">
                                             <div class="category-title-box">
-                                                <h5>Energy & Soft Drinks</h5>
+                                                <h5>Bebidas energéticas & Refrescos</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Soda & Cocktail Mix</a>
+                                                    <a href="javascript:void(0)">Gaseosas & Refrescos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Soda & Cocktail Mix</a>
+                                                    <a href="javascript:void(0)">Jugos Ligeros</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Sports & Energy Drinks</a>
+                                                    <a href="javascript:void(0)">Rehidratantes & Energizantes</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Non Alcoholic Drinks</a>
+                                                    <a href="javascript:void(0)">No Alcoholicas</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Packaged Water</a>
+                                                    <a href="javascript:void(0)">Agua</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Spring Water</a>
+                                                    <a href="javascript:void(0)">Agua mineral</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Flavoured Water</a>
+                                                    <a href="javascript:void(0)">Agua saborizada</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -407,49 +407,49 @@
                                     <div class="onhover-category-box">
                                         <div class="list-1">
                                             <div class="category-title-box">
-                                                <h5>Meat</h5>
+                                                <h5>Carne</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Fresh Meat</a>
+                                                    <a href="javascript:void(0)">Carne fresca</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Frozen Meat</a>
+                                                    <a href="javascript:void(0)">Carne congelada</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Marinated Meat</a>
+                                                    <a href="javascript:void(0)">Carne Marinada</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Fresh & Frozen Meat</a>
+                                                    <a href="javascript:void(0)">Carne fresca y congelada</a>
                                                 </li>
                                             </ul>
                                         </div>
 
                                         <div class="list-2">
                                             <div class="category-title-box">
-                                                <h5>Seafood</h5>
+                                                <h5>Pescados & Mariscos</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Fresh Water Fish</a>
+                                                    <a href="javascript:void(0)">Pescado de agua dulce</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Dry Fish</a>
+                                                    <a href="javascript:void(0)">Pescado seco</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Frozen Fish & Seafood</a>
+                                                    <a href="javascript:void(0)">Pescados y Mariscos Congelados</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Marine Water Fish</a>
+                                                    <a href="javascript:void(0)">Pescado de agua salada</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Canned Seafood</a>
+                                                    <a href="javascript:void(0)">Mariscos enlatados</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Prawans & Shrimps</a>
+                                                    <a href="javascript:void(0)">Langostinos y Gambas</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Other Seafood</a>
+                                                    <a href="javascript:void(0)">Otros mariscos</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -466,64 +466,64 @@
                                     <div class="onhover-category-box">
                                         <div class="list-1">
                                             <div class="category-title-box">
-                                                <h5>Breakfast Cereals</h5>
+                                                <h5>Cereales de desayuno</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Oats & Porridge</a>
+                                                    <a href="javascript:void(0)">Avena</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Kids Cereal</a>
+                                                    <a href="javascript:void(0)">Cereal para niños</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Muesli</a>
+                                                    <a href="javascript:void(0)">Papilla de cereales</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Flakes</a>
+                                                    <a href="javascript:void(0)">Copos de Cereale</a>
                                                 </li>
                                                 <li>
                                                     <a href="javascript:void(0)">Granola & Cereal Bars</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Instant Noodles</a>
+                                                    <a href="javascript:void(0)">Fideos Instantaneos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Pasta & Macaroni</a>
+                                                    <a href="javascript:void(0)">Pastas & Macarrones</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Frozen Non-Veg Snacks</a>
+                                                    <a href="javascript:void(0)">Bocaditos congelados</a>
                                                 </li>
                                             </ul>
                                         </div>
 
                                         <div class="list-2">
                                             <div class="category-title-box">
-                                                <h5>Dairy</h5>
+                                                <h5>Lacteos</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Milk</a>
+                                                    <a href="javascript:void(0)">Leche</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Curd</a>
+                                                    <a href="javascript:void(0)">Crema</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Paneer, Tofu & Cream</a>
+                                                    <a href="javascript:void(0)">Tofu</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Butter & Margarine</a>
+                                                    <a href="javascript:void(0)">Mantequilla y Margarina</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Condensed, Powdered Milk</a>
+                                                    <a href="javascript:void(0)">Leche condensada & Leche en polvo</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Buttermilk & Lassi</a>
+                                                    <a href="javascript:void(0)">Suero de Leche</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Yogurt & Shrikhand</a>
+                                                    <a href="javascript:void(0)">Yogurt</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Flavoured, Soya Milk</a>
+                                                    <a href="javascript:void(0)">Leche de Soya</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -540,23 +540,23 @@
                                     <div class="onhover-category-box w-100">
                                         <div class="list-1">
                                             <div class="category-title-box">
-                                                <h5>Noodle, Pasta</h5>
+                                                <h5>Fideos, Pastas</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Instant Noodles</a>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Hakka Noodles</a>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Cup Noodles</a>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Vermicelli</a>
+                                                    <a href="javascript:void(0)">Fideos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Instant Pasta</a>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -573,43 +573,43 @@
                                     <div class="onhover-category-box">
                                         <div class="list-1">
                                             <div class="category-title-box">
-                                                <h5>Biscuits & Cookies</h5>
+                                                <h5>Galletas y galletas</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Salted Biscuits</a>
+                                                    <a href="javascript:void(0)">Galletas Saladas</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Marie, Health, Digestive</a>
+                                                    <a href="javascript:void(0)">Digestivos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Cream Biscuits & Wafers</a>
+                                                    <a href="javascript:void(0)">Galletas y barquillos de crema</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Glucose & Milk Biscuits</a>
+                                                    <a href="javascript:void(0)">Galletas De Glucosa Y Leche</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Cookies</a>
+                                                    <a href="javascript:void(0)">Galletas</a>
                                                 </li>
                                             </ul>
                                         </div>
 
                                         <div class="list-2">
                                             <div class="category-title-box">
-                                                <h5>Bakery Snacks</h5>
+                                                <h5>Aperitivos de panadería</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Bread Sticks & Lavash</a>
+                                                    <a href="javascript:void(0)">Palitos de pan</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Cheese & Garlic Bread</a>
+                                                    <a href="javascript:void(0)">Pan de queso y ajo</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Puffs, Patties, Sandwiches</a>
+                                                    <a href="javascript:void(0)">Bocadillos, empanadas, sándwiches</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Breadcrumbs & Croutons</a>
+                                                    <a href="javascript:void(0)">Pan rallado y picatostes</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -626,52 +626,52 @@
                                     <div class="onhover-category-box">
                                         <div class="list-1">
                                             <div class="category-title-box">
-                                                <h5>Grocery</h5>
+                                                <h5>Tienda de Comestibles</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Lemon, Ginger & Garlic</a>
+                                                    <a href="javascript:void(0)">Limón, jengibre y ajo</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Indian & Exotic Herbs</a>
+                                                    <a href="javascript:void(0)">Especies</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Vegetables</a>
+                                                    <a href="javascript:void(0)">Vegetales Organicos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Fruits</a>
+                                                    <a href="javascript:void(0)">Frutas Organicas</a>
                                                 </li>
                                             </ul>
                                         </div>
 
                                         <div class="list-2">
                                             <div class="category-title-box">
-                                                <h5>Organic Staples</h5>
+                                                <h5>Productos Organicos</h5>
                                             </div>
                                             <ul>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Dry Fruits</a>
+                                                    <a href="javascript:void(0)">Frutos secos Organicos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Dals & Pulses</a>
+                                                    <a href="javascript:void(0)">Legumbres Organicas</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Millet & Flours</a>
+                                                    <a href="javascript:void(0)">Harinas Organicas</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Sugar, Jaggery</a>
+                                                    <a href="javascript:void(0)">Azucar Organica</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Masalas & Spices</a>
+                                                    <a href="javascript:void(0)">Especies Organicas</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Rice, Other Rice</a>
+                                                    <a href="javascript:void(0)">Arroz Organico</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Flours</a>
+                                                    <a href="javascript:void(0)">Granos Organicos</a>
                                                 </li>
                                                 <li>
-                                                    <a href="javascript:void(0)">Organic Edible Oil, Ghee</a>
+                                                    <a href="javascript:void(0)">Aceite Organico</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1047,35 +1047,35 @@
         <li class="active">
             <a href="index-2.html">
                 <i class="iconly-Home icli"></i>
-                <span>Home</span>
+                <span>Inicio</span>
             </a>
         </li>
 
         <li class="mobile-category">
             <a href="javascript:void(0)">
                 <i class="iconly-Category icli js-link"></i>
-                <span>Category</span>
+                <span>Categorias</span>
             </a>
         </li>
 
         <li>
             <a href="search.html" class="search-box">
                 <i class="iconly-Search icli"></i>
-                <span>Search</span>
+                <span>Buscar</span>
             </a>
         </li>
 
         <li>
             <a href="wishlist.html" class="notifi-wishlist">
                 <i class="iconly-Heart icli"></i>
-                <span>My Wish</span>
+                <span>Mi deseo</span>
             </a>
         </li>
 
         <li>
             <a href="cart.html">
                 <i class="iconly-Bag-2 icli fly-cate"></i>
-                <span>Cart</span>
+                <span>Carrito</span>
             </a>
         </li>
     </ul>

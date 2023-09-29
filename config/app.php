@@ -6,26 +6,26 @@ use Illuminate\Support\ServiceProvider;
 return [
 
     /*
-    |--------------------------------------------------------------------------
-    | Application Name
-    |--------------------------------------------------------------------------
+    |------------------------------------------------- -------------------------
+    | Nombre de la aplicación
+    |------------------------------------------------- -------------------------
     |
-    | This value is the name of your application. This value is used when the
-    | framework needs to place the application's name in a notification or
-    | any other location as required by the application or its packages.
+    | Este valor es el nombre de su aplicación. Este valor se utiliza cuando el
+    | framework necesita colocar el nombre de la aplicación en una notificación o
+    | cualquier otra ubicación según lo requiera la aplicación o sus paquetes.
     |
     */
 
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
-    |--------------------------------------------------------------------------
-    | Application Environment
-    |--------------------------------------------------------------------------
+    |------------------------------------------------- -------------------------
+    | Entorno de aplicación
+    |------------------------------------------------- -------------------------
     |
-    | This value determines the "environment" your application is currently
-    | running in. This may determine how you prefer to configure various
-    | services the application utilizes. Set this in your ".env" file.
+    | Este valor determina el "entorno" en el que se encuentra actualmente su aplicación.
+    | ejecutándose. Esto puede determinar cómo prefiere configurar varios
+    | servicios que utiliza la aplicación. Configure esto en su archivo ".env".
     |
     */
 
@@ -171,13 +171,13 @@ return [
     ])->toArray(),
 
     /*
-    |--------------------------------------------------------------------------
-    | Class Aliases
-    |--------------------------------------------------------------------------
+    |------------------------------------------------- -------------------------
+    | Alias ​​de clase
+    |------------------------------------------------- -------------------------
     |
-    | This array of class aliases will be registered when this application
-    | is started. However, feel free to register as many as you wish as
-    | the aliases are "lazy" loaded so they don't hinder performance.
+    | Esta matriz de alias de clase se registrará cuando esta aplicación
+    | Está empezado. Sin embargo, siéntete libre de registrar tantos como desees.
+    | los alias se cargan de forma "lenta" para que no obstaculicen el rendimiento.
     |
     */
 
