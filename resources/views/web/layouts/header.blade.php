@@ -156,7 +156,7 @@
                                     </div>
                                 </li>
                                 <li class="right-side">
-                                    <a href="contact-us.html" class="delivery-login-box">
+                                    <a href="#" class="delivery-login-box">
                                         <div class="delivery-icon">
                                             <i data-feather="phone-call"></i>
                                         </div>
@@ -167,7 +167,7 @@
                                     </a>
                                 </li>
                                 <li class="right-side">
-                                    <a href="wishlist.html" class="btn p-0 position-relative header-wishlist">
+                                    <a href="#" class="btn p-0 position-relative header-wishlist">
                                         <i data-feather="heart"></i>
                                     </a>
                                 </li>
@@ -228,8 +228,8 @@
                                             </div>
 
                                             <div class="button-group">
-                                                <a href="cart.html" class="btn btn-sm cart-button">View Cart</a>
-                                                <a href="checkout.html" class="btn btn-sm cart-button theme-bg-color
+                                                <a href="#" class="btn btn-sm cart-button">Ver Carrito</a>
+                                                <a href="#" class="btn btn-sm cart-button theme-bg-color
                                                 text-white">Checkout</a>
                                             </div>
                                         </div>
@@ -242,7 +242,7 @@
                                         </div>
                                         <div class="delivery-detail">
                                             <h6>Hello,</h6>
-                                            <h5>My Account</h5>
+                                            <h5>My cuenta</h5>
                                         </div>
                                     </div>
 
@@ -250,15 +250,15 @@
                                         <ul class="user-box-name">
                                             <li class="product-box-contain">
                                                 <i></i>
-                                                <a href="login.html">Log In</a>
+                                                <a href="#">Ingresar</a>
                                             </li>
 
                                             <li class="product-box-contain">
-                                                <a href="sign-up.html">Register</a>
+                                                <a href="#">Registro</a>
                                             </li>
 
                                             <li class="product-box-contain">
-                                                <a href="forgot.html">Forgot Password</a>
+                                                <a href="#">Recuperar contraseña</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -283,7 +283,7 @@
 
                         <div class="category-dropdown">
                             <div class="category-title">
-                                <h5>Categories</h5>
+                                <h5>Categorias</h5>
                                 <button type="button" class="btn p-0 close-button text-content">
                                     <i class="fa-solid fa-xmark"></i>
                                 </button>
@@ -293,7 +293,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
-                                        <h6>Vegetables & Fruit</h6>
+                                        <h6>Vegetales y Frutas</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -361,7 +361,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg" alt="">
-                                        <h6>Beverages</h6>
+                                        <h6>Bebidas</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -400,7 +400,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg" alt="">
-                                        <h6>Meats & Seafood</h6>
+                                        <h6>Carnes y Mariscos</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -459,7 +459,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg" alt="">
-                                        <h6>Breakfast & Dairy</h6>
+                                        <h6>Desayuno y Lácteos</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -533,7 +533,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
-                                        <h6>Frozen Foods</h6>
+                                        <h6>Comidas congeladas</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -566,7 +566,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg" alt="">
-                                        <h6>Biscuits & Snacks</h6>
+                                        <h6>Galletas y bocadillos</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -619,7 +619,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg" alt="">
-                                        <h6>Grocery & Staples</h6>
+                                        <h6>Abarrotes y productos básicos</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -693,9 +693,9 @@
                                     <ul class="navbar-nav">
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                data-bs-toggle="dropdown">Home</a>
+                                                data-bs-toggle="dropdown">Inicio</a>
 
-                                            <ul class="dropdown-menu">
+                                            <!--<ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="index-2.html">Kartshop</a>
                                                 </li>
@@ -723,14 +723,14 @@
                                                 <li>
                                                     <a class="dropdown-item" href="index-10.html">Fashion</a>
                                                 </li>
-                                            </ul>
+                                            </ul>-->
                                         </li>
 
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                data-bs-toggle="dropdown">Shop</a>
+                                                data-bs-toggle="dropdown">Quiénes Somos?</a>
 
-                                            <ul class="dropdown-menu">
+                                            <!--<ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="shop-category-slider.html">Shop
                                                         Category Slider</a>
@@ -757,14 +757,14 @@
                                                     <a class="dropdown-item" href="shop-top-filter.html">Shop Top
                                                         Filter</a>
                                                 </li>
-                                            </ul>
+                                            </ul>-->
                                         </li>
 
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                                data-bs-toggle="dropdown">Product</a>
+                                                data-bs-toggle="dropdown">Preguntas más Frecuentes</a>
 
-                                            <ul class="dropdown-menu">
+                                            <!--<ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="product-4-image.html">Product
                                                         4 Image</a>
@@ -800,14 +800,14 @@
                                                     <a href="product-sticky.html" class="dropdown-item">Product
                                                         Sticky</a>
                                                 </li>
-                                            </ul>
+                                            </ul>-->
                                         </li>
 
                                         <li class="nav-item dropdown dropdown-mega">
                                             <a class="nav-link dropdown-toggle ps-xl-2 ps-0"
-                                                href="javascript:void(0)" data-bs-toggle="dropdown">Mega Menu</a>
+                                                href="javascript:void(0)" data-bs-toggle="dropdown">Contáctanos</a>
 
-                                            <div class="dropdown-menu dropdown-menu-2">
+                                            <!--<div class="dropdown-menu dropdown-menu-2">
                                                 <div class="row">
                                                     <div class="dropdown-column col-xl-3">
                                                         <h5 class="dropdown-header">Daily Vegetables</h5>
@@ -877,10 +877,10 @@
 
                                                     <div class="dropdown-column dropdown-column-img col-3"></div>
                                                 </div>
-                                            </div>
+                                            </div>-->
                                         </li>
 
-                                        <li class="nav-item dropdown">
+                                        <!--<li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="javascript:void(0)"
                                                 data-bs-toggle="dropdown">Blog</a>
                                             <ul class="dropdown-menu">
@@ -894,9 +894,9 @@
                                                     <a class="dropdown-item" href="blog-list.html">Blog List</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li>-->
 
-                                        <li class="nav-item dropdown new-nav-item">
+                                        <!--<li class="nav-item dropdown new-nav-item">
                                             <label class="new-dropdown">New</label>
                                             <a class="nav-link dropdown-toggle" href="javascript:void(0)"
                                                 data-bs-toggle="dropdown">Pages</a>
@@ -992,9 +992,9 @@
                                                     <a class="dropdown-item" href="wishlist.html">Wishlist</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li>-->
 
-                                        <li class="nav-item dropdown">
+                                        <!--<li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="javascript:void(0)"
                                                 data-bs-toggle="dropdown">Seller</a>
                                             <ul class="dropdown-menu">
@@ -1022,7 +1022,7 @@
                                                         2</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li>-->
                                     </ul>
                                 </div>
                             </div>
