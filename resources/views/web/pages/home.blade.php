@@ -77,7 +77,7 @@
                         <div class="banner-box">
                             <h6 class="text-danger">5% OFF</h6>
                             <h5>Ofertas especiales en artículos nuevos</h5>
-                            <h6 class="text-content">Esenciales diarios de huevos y lácteos</h6>
+                            <h6 class="text-content">Productos del dia a dia huevos y lácteos</h6>
                         </div>
                         <a href="shop-left-sidebar.html" class="banner-button text-white">Compra ahora<i
                                 class="fa-solid fa-right-long ms-2"></i></a>
@@ -122,7 +122,7 @@
                         <div class="banner-box">
                             <h6 class="text-danger">5% OFF</h6>
                             <h5>Compre más ahorre más</h5>
-                            <h6 class="text-content">Nuts & Snacks</h6>
+                            <h6 class="text-content">Nueces y snacks</h6>
                         </div>
                         <a href="shop-left-sidebar.html" class="banner-button text-white">Compra ahora <i
                                 class="fa-solid fa-right-long ms-2"></i></a>
@@ -377,9 +377,10 @@
                             <div class="review-box">
                                 <div class="review-contain">
                                     <h5 class="w-75">Nos Preocupamos por la Experiencia de Nuestros Clientes</h5>
-                                    <p>En publicaciones y diseño gráfico, Lorem ipsum es un texto de marcador de posición comúnmente
-                                        Se utiliza para demostrar la forma visual de un documento o un tipo de letra sin
-                                        confiando en contenido significativo.</p>
+                                    <p>En el mundo de hoy, donde las opciones son abundantes, agradecemos profundamente
+                                         que hayan elegido ser parte de nuestra familia de clientes. 
+                                         Y queremos que sepan que estamos comprometidos a seguir brindándoles la mejor calidad, 
+                                         servicio y atención que merecen.</p>
                                 </div>
 
                                 <div class="review-profile">
@@ -388,7 +389,7 @@
                                             class="img-fluid blur-up lazyload" alt="">
                                     </div>
                                     <div class="review-detail">
-                                        <h5>Javier Llanos</h5>
+                                        <h5>Jesica Lopez</h5>
                                         <h6>Gerente de Ventas</h6>
                                     </div>
                                 </div>
@@ -518,7 +519,7 @@
                                                 </div>
 
                                                 <div class="add-to-cart-box">
-                                                    <button class="btn btn-add-cart addcart-button">Add
+                                                    <button class="btn btn-add-cart addcart-button">Agregar
                                                         <span class="add-icon">
                                                             <i class="fa-solid fa-plus"></i>
                                                         </span>
@@ -1067,7 +1068,7 @@
                                                 </div>
 
                                                 <div class="add-to-cart-box">
-                                                    <button class="btn btn-add-cart addcart-button">Add
+                                                    <button class="btn btn-add-cart addcart-button">Agregar
                                                         <span class="add-icon">
                                                             <i class="fa-solid fa-plus"></i>
                                                         </span>
@@ -1129,7 +1130,7 @@
                                                 </a>
 
                                                 <h5 class="sold text-content">
-                                                    <span class="theme-color price">$26.69</span>
+                                                    <span class="theme-color price">S/. 26.69</span>
                                                     <del>28.56</del>
                                                 </h5>
 
@@ -1156,7 +1157,7 @@
                                                 </div>
 
                                                 <div class="add-to-cart-box">
-                                                    <button class="btn btn-add-cart addcart-button">Add
+                                                    <button class="btn btn-add-cart addcart-button">Agregar
                                                         <span class="add-icon">
                                                             <i class="fa-solid fa-plus"></i>
                                                         </span>
@@ -1221,7 +1222,7 @@
                                                 </a>
 
                                                 <h5 class="sold text-content">
-                                                    <span class="theme-color price">$26.69</span>
+                                                    <span class="theme-color price">S/. 26.69</span>
                                                     <del>28.56</del>
                                                 </h5>
 
@@ -1248,7 +1249,7 @@
                                                 </div>
 
                                                 <div class="add-to-cart-box">
-                                                    <button class="btn btn-add-cart addcart-button">Add
+                                                    <button class="btn btn-add-cart addcart-button">Agregar
                                                         <span class="add-icon">
                                                             <i class="fa-solid fa-plus"></i>
                                                         </span>
@@ -1310,7 +1311,7 @@
                                                 </a>
 
                                                 <h5 class="sold text-content">
-                                                    <span class="theme-color price">$26.69</span>
+                                                    <span class="theme-color price">S/. 26.69</span>
                                                     <del>28.56</del>
                                                 </h5>
 
@@ -1337,7 +1338,7 @@
                                                 </div>
 
                                                 <div class="add-to-cart-box">
-                                                    <button class="btn btn-add-cart addcart-button">Add
+                                                    <button class="btn btn-add-cart addcart-button">Agregar
                                                         <span class="add-icon">
                                                             <i class="fa-solid fa-plus"></i>
                                                         </span>
@@ -1403,7 +1404,7 @@
                                                 </a>
 
                                                 <h5 class="sold text-content">
-                                                    <span class="theme-color price">$26.69</span>
+                                                    <span class="theme-color price">S/. 26.69</span>
                                                     <del>28.56</del>
                                                 </h5>
 
@@ -1430,7 +1431,7 @@
                                                 </div>
 
                                                 <div class="add-to-cart-box">
-                                                    <button class="btn btn-add-cart addcart-button">Add
+                                                    <button class="btn btn-add-cart addcart-button">Agregar
                                                         <span class="add-icon">
                                                             <i class="fa-solid fa-plus"></i>
                                                         </span>
@@ -1492,7 +1493,7 @@
                                                 </a>
 
                                                 <h5 class="sold text-content">
-                                                    <span class="theme-color price">$26.69</span>
+                                                    <span class="theme-color price">S/. 26.69</span>
                                                     <del>28.56</del>
                                                 </h5>
 
@@ -1519,7 +1520,7 @@
                                                 </div>
 
                                                 <div class="add-to-cart-box">
-                                                    <button class="btn btn-add-cart addcart-button">Add
+                                                    <button class="btn btn-add-cart addcart-button">Agregar
                                                         <span class="add-icon">
                                                             <i class="fa-solid fa-plus"></i>
                                                         </span>
@@ -1549,7 +1550,7 @@
                 </div>
 
                 <div class="title">
-                    <h2>Bowse por Categorías</h2>
+                    <h2>Productos por Categorías</h2>
                     <span class="title-leaf">
                         <svg class="icon-width">
                             <use xlink:href="https://themes.pixelstrap.com/fastkart/assets/svg/leaf.svg#leaf"></use>
@@ -1563,7 +1564,7 @@
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" class="blur-up lazyload" alt="">
-                                <h5>Vegetables & Fruit</h5>
+                                <h5>Verduras & Frutas</h5>
                             </div>
                         </a>
                     </div>
@@ -1572,7 +1573,7 @@
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg" class="blur-up lazyload" alt="">
-                                <h5>Beverages</h5>
+                                <h5>Bebidas</h5>
                             </div>
                         </a>
                     </div>
@@ -1581,7 +1582,7 @@
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg" class="blur-up lazyload" alt="">
-                                <h5>Meats & Seafood</h5>
+                                <h5>Carnes & Mariscos</h5>
                             </div>
                         </a>
                     </div>
@@ -1590,7 +1591,7 @@
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg" class="blur-up lazyload" alt="">
-                                <h5>Breakfast</h5>
+                                <h5>Desayunos</h5>
                             </div>
                         </a>
                     </div>
@@ -1599,7 +1600,7 @@
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" class="blur-up lazyload" alt="">
-                                <h5>Frozen Foods</h5>
+                                <h5>Comidas congeladas</h5>
                             </div>
                         </a>
                     </div>
@@ -1608,7 +1609,7 @@
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg" class="blur-up lazyload" alt="">
-                                <h5>Milk & Dairies</h5>
+                                <h5>Leche y Lácteos</h5>
                             </div>
                         </a>
                     </div>
@@ -1617,7 +1618,7 @@
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg" class="blur-up lazyload" alt="">
-                                <h5>Pet Food</h5>
+                                <h5>Alimentos para Mascotas</h5>
                             </div>
                         </a>
                     </div>
@@ -1632,7 +1633,7 @@
                                 <div class="banner-details p-center-left p-4">
                                     <div>
                                         <h3 class="text-exo">50% offer</h3>
-                                        <h4 class="text-russo fw-normal theme-color mb-2">Testy Mushrooms</h4>
+                                        <h4 class="text-russo fw-normal theme-color mb-2">Carne Fresca</h4>
                                         <button onclick="location.href = 'shop-left-sidebar.html';"
                                             class="btn btn-animation btn-sm mend-auto">Compra ahora <i
                                                 class="fa-solid fa-arrow-right icon"></i></button>
@@ -1647,7 +1648,7 @@
                                 <div class="banner-details p-center-left p-4">
                                     <div>
                                         <h3 class="text-exo">50% offer</h3>
-                                        <h4 class="text-russo fw-normal theme-color mb-2">Fresh MEAT</h4>
+                                        <h4 class="text-russo fw-normal theme-color mb-2">Hongos</h4>
                                         <button onclick="location.href = 'shop-left-sidebar.html';"
                                             class="btn btn-animation btn-sm mend-auto">Compra ahora <i
                                                 class="fa-solid fa-arrow-right icon"></i></button>
@@ -1704,11 +1705,11 @@
                                         </div>
                                         <div class="product-detail">
                                             <a href="product-left-thumbnail.html">
-                                                <h6 class="name h-100">Chocalate Powder</h6>
+                                                <h6 class="name h-100">Chocalate</h6>
                                             </a>
 
                                             <h5 class="sold text-content">
-                                                <span class="theme-color price">$26.69</span>
+                                                <span class="theme-color price">S/. 26.69</span>
                                                 <del>28.56</del>
                                             </h5>
 
@@ -1735,7 +1736,7 @@
                                             </div>
 
                                             <div class="add-to-cart-box">
-                                                <button class="btn btn-add-cart addcart-button">Add
+                                                <button class="btn btn-add-cart addcart-button">Agregar
                                                     <span class="add-icon">
                                                         <i class="fa-solid fa-plus"></i>
                                                     </span>
@@ -1795,11 +1796,11 @@
                                         </div>
                                         <div class="product-detail">
                                             <a href="product-left-thumbnail.html">
-                                                <h6 class="name h-100">Sandwich Cookies</h6>
+                                                <h6 class="name h-100">Galletas Sándwich</h6>
                                             </a>
 
                                             <h5 class="sold text-content">
-                                                <span class="theme-color price">$26.69</span>
+                                                <span class="theme-color price">S/. 26.69</span>
                                                 <del>28.56</del>
                                             </h5>
 
@@ -1826,7 +1827,7 @@
                                             </div>
 
                                             <div class="add-to-cart-box">
-                                                <button class="btn btn-add-cart addcart-button">Add
+                                                <button class="btn btn-add-cart addcart-button">Agreagar
                                                     <span class="add-icon">
                                                         <i class="fa-solid fa-plus"></i>
                                                     </span>
@@ -1886,11 +1887,11 @@
                                         </div>
                                         <div class="product-detail">
                                             <a href="product-left-thumbnail.html">
-                                                <h6 class="name h-100">Butter Croissant</h6>
+                                                <h6 class="name h-100">Croissant De Mantequilla</h6>
                                             </a>
 
                                             <h5 class="sold text-content">
-                                                <span class="theme-color price">$26.69</span>
+                                                <span class="theme-color price">S/. 26.69</span>
                                                 <del>28.56</del>
                                             </h5>
 
@@ -1917,7 +1918,7 @@
                                             </div>
 
                                             <div class="add-to-cart-box">
-                                                <button class="btn btn-add-cart addcart-button">Add
+                                                <button class="btn btn-add-cart addcart-button">Agregar
                                                     <span class="add-icon">
                                                         <i class="fa-solid fa-plus"></i>
                                                     </span>
@@ -1977,11 +1978,11 @@
                                         </div>
                                         <div class="product-detail">
                                             <a href="product-left-thumbnail.html">
-                                                <h6 class="name h-100">Dark Chocalate</h6>
+                                                <h6 class="name h-100">Chocolate negro</h6>
                                             </a>
 
                                             <h5 class="sold text-content">
-                                                <span class="theme-color price">$26.69</span>
+                                                <span class="theme-color price">S/. 26.69</span>
                                                 <del>28.56</del>
                                             </h5>
 
@@ -2008,7 +2009,7 @@
                                             </div>
 
                                             <div class="add-to-cart-box">
-                                                <button class="btn btn-add-cart addcart-button">Add
+                                                <button class="btn btn-add-cart addcart-button">Agregar
                                                     <span class="add-icon">
                                                         <i class="fa-solid fa-plus"></i>
                                                     </span>
@@ -2068,11 +2069,11 @@
                                         </div>
                                         <div class="product-detail">
                                             <a href="product-left-thumbnail.html">
-                                                <h6 class="name h-100">Mix-sweet-food</h6>
+                                                <h6 class="name h-100">Comida dulce</h6>
                                             </a>
 
                                             <h5 class="sold text-content">
-                                                <span class="theme-color price">$26.69</span>
+                                                <span class="theme-color price">S/. 26.69</span>
                                                 <del>28.56</del>
                                             </h5>
 
@@ -2099,7 +2100,7 @@
                                             </div>
 
                                             <div class="add-to-cart-box">
-                                                <button class="btn btn-add-cart addcart-button">Add
+                                                <button class="btn btn-add-cart addcart-button">Agregar
                                                     <span class="add-icon">
                                                         <i class="fa-solid fa-plus"></i>
                                                     </span>
@@ -2159,11 +2160,11 @@
                                         </div>
                                         <div class="product-detail">
                                             <a href="product-left-thumbnail.html">
-                                                <h6 class="name h-100">Dark Chocalate</h6>
+                                                <h6 class="name h-100">Chocolate negro</h6>
                                             </a>
 
                                             <h5 class="sold text-content">
-                                                <span class="theme-color price">$26.69</span>
+                                                <span class="theme-color price">S/. 26.69</span>
                                                 <del>28.56</del>
                                             </h5>
 
@@ -2190,7 +2191,7 @@
                                             </div>
 
                                             <div class="add-to-cart-box">
-                                                <button class="btn btn-add-cart addcart-button">Add
+                                                <button class="btn btn-add-cart addcart-button">Agregar
                                                     <span class="add-icon">
                                                         <i class="fa-solid fa-plus"></i>
                                                     </span>
@@ -2223,8 +2224,8 @@
                         <img src="{{ asset('web/assets/images/vegetable/banner/15.jpg')}}" class="bg-img blur-up lazyload" alt="">
                         <div class="banner-details p-center p-4 text-white text-center">
                             <div>
-                                <h3 class="lh-base fw-bold offer-text">¡Obtén un reembolso de $3! Orden mínima de $30</h3>
-                                <h6 class="coupon-code">Usar Código : GROCERY1920</h6>
+                                <h3 class="lh-base fw-bold offer-text">¡Obtén un reembolso de S/ 10! Orden mínima de S/. 110</h3>
+                                <h6 class="coupon-code">Usar Código : ATIENDO2023</h6>
                             </div>
                         </div>
                     </div>
@@ -2238,10 +2239,9 @@
                                     alt="">
                                 <div class="banner-details p-center-left p-4">
                                     <div>
-                                        <h2 class="text-kaushan fw-normal theme-color">Get Ready To</h2>
-                                        <h3 class="mt-2 mb-3">TAKE ON THE DAY!</h3>
-                                        <p class="text-content banner-text">In publishing and graphic design, Lorem
-                                            ipsum is a placeholder text commonly used to demonstrate.</p>
+                                        <h2 class="text-kaushan fw-normal theme-color">Preparate para</h2>
+                                        <h3 class="mt-2 mb-3">¡APROVECHAR EL DÍA!</h3>
+                                        <p class="text-content banner-text">Adquiere tus productos frescos al mejor precio.</p>
                                         <button onclick="location.href = 'shop-left-sidebar.html';"
                                             class="btn btn-animation btn-sm mend-auto">Compra ahora <i
                                                 class="fa-solid fa-arrow-right icon"></i></button>
@@ -2257,8 +2257,8 @@
                                 <div class="banner-details p-center-left p-4 h-100">
                                     <div>
                                         <h2 class="text-kaushan fw-normal text-danger">20% Off</h2>
-                                        <h3 class="mt-2 mb-2 theme-color">SUMMRY</h3>
-                                        <h3 class="fw-normal product-name text-title">Product</h3>
+                                        <h3 class="mt-2 mb-2 theme-color">RESUMEN</h3>
+                                        <h3 class="fw-normal product-name text-title">Producto</h3>
                                     </div>
                                 </div>
                             </a>
@@ -2291,10 +2291,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Tuffets Whole Wheat Bread</h6>
+                                                <h6 class="name">Pan Integral</h6>
                                             </a>
                                             <span>500 G</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2310,10 +2310,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Potato</h6>
+                                                <h6 class="name">Papa</h6>
                                             </a>
                                             <span>500 G</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2329,10 +2329,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Green Chilli</h6>
+                                                <h6 class="name">Chile</h6>
                                             </a>
                                             <span>200 G</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2348,10 +2348,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Muffets Burger Bun</h6>
+                                                <h6 class="name">Hamburguesas</h6>
                                             </a>
                                             <span>150 G</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2371,10 +2371,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Tuffets Britannia Cheezza</h6>
+                                                <h6 class="name">Queso britanico</h6>
                                             </a>
                                             <span>500 G</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2390,10 +2390,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Long Life Toned Milk</h6>
+                                                <h6 class="name">Leche tonificada de larga duración</h6>
                                             </a>
                                             <span>1 L</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2409,10 +2409,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Organic Tomato</h6>
+                                                <h6 class="name">Tomate Orgánico</h6>
                                             </a>
                                             <span>1 KG</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2428,10 +2428,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Organic Jam</h6>
+                                                <h6 class="name">Mermelada Organica</h6>
                                             </a>
                                             <span>150 G</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2451,10 +2451,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Good Life Refined Sunflower Oil</h6>
+                                                <h6 class="name">Aceite de girasol refinado buena vida</h6>
                                             </a>
                                             <span>1 L</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2470,10 +2470,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">Good Life Raw Peanuts</h6>
+                                                <h6 class="name">Maní crudo de buena vida</h6>
                                             </a>
                                             <span>500 G</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/.  10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2489,10 +2489,10 @@
                                     <div class="offer-detail">
                                         <div>
                                             <a href="product-left-thumbnail.html" class="text-title">
-                                                <h6 class="name">TufBest Farms Moong Dal</h6>
+                                                <h6 class="name">Huevos de Granja</h6>
                                             </a>
                                             <span>1 KG</span>
-                                            <h6 class="price theme-color">$ 10.00</h6>
+                                            <h6 class="price theme-color">S/. 10.00</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -2630,7 +2630,7 @@
                                 <h5>S/. 20 de descuento para tu primer pedido</h5>
                                 <div class="input-box">
                                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="Enter Your Email">
+                                        placeholder="Ingresa tu Email">
                                     <i class="fa-solid fa-envelope arrow"></i>
                                     <button class="sub-btn  btn-animation">
                                         <span class="d-sm-block d-none">Suscribir</span>
