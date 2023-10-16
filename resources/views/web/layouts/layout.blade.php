@@ -474,5 +474,7 @@
 
     <!-- thme setting js -->
     <script src="{{ asset('web/assets/js/theme-setting.js')}}"></script>
+
+    @yield('script')
 </body>
 </html>

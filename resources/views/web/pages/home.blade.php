@@ -1,6 +1,7 @@
 @extends('web.layouts.layout')
 
 @section('content')
+
 <!-- Home Section Start -->
 <section class="home-section pt-2">
     <div class="container-fluid-lg">
@@ -378,8 +379,8 @@
                                 <div class="review-contain">
                                     <h5 class="w-75">Nos Preocupamos por la Experiencia de Nuestros Clientes</h5>
                                     <p>En el mundo de hoy, donde las opciones son abundantes, agradecemos profundamente
-                                         que hayan elegido ser parte de nuestra familia de clientes. 
-                                         Y queremos que sepan que estamos comprometidos a seguir brindándoles la mejor calidad, 
+                                         que hayan elegido ser parte de nuestra familia de clientes.
+                                         Y queremos que sepan que estamos comprometidos a seguir brindándoles la mejor calidad,
                                          servicio y atención que merecen.</p>
                                 </div>
 
@@ -453,6 +454,8 @@
                 <div class="section-b-space">
                     <div class="product-border border-row overflow-hidden">
                         <div class="product-box-slider no-arrow">
+
+
                             <div>
                                 <div class="row m-0">
                                     <div class="col-12 px-0">
@@ -630,6 +633,8 @@
                                             </div>
                                         </div>
                                     </div>
+
+
                                 </div>
                             </div>
 
@@ -2647,3 +2652,4 @@
 </section>
 <!-- Newsletter Section End -->
 @endsection
+

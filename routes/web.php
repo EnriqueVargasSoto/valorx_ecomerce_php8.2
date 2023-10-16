@@ -14,9 +14,7 @@ use App\Http\Controllers\Web\WebController;
 |
 */
 
-Route::get('/', function () {
-    return view('web.pages.home');
-})->name('/');
+Route::get('/', [WebController::class, 'index'])->name('/');
 
 Route::get('quienes-somos', [WebController::class, 'quienesSomo'])->name('quienes-somos');
 Route::get('preguntas-frecuentes', [WebController::class, 'preguntasFrecuentes'])->name('preguntas-frecuentes');
