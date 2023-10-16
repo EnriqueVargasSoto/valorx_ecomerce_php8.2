@@ -19,12 +19,8 @@ class WebController extends Controller
         $response = str_replace("\r", "", $response);
         $response = str_replace(",,", ",", $response);
         //dd($response);
-        $data = json_decode($response);
-        dd($data);
-        foreach ($data['items'] as $key => $value) {
-            dd($value);
-        }
-        return view('web.pages.home')->with(compact('data'));
+
+        return view('web.pages.home');//->with(compact('data'));
 
     }
 

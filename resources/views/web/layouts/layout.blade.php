@@ -476,5 +476,8 @@
     <script src="{{ asset('web/assets/js/theme-setting.js')}}"></script>
 
     @yield('script')
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script src="{{asset('app.js')}}"></script>
 </body>
 </html>
