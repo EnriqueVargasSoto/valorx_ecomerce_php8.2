@@ -31,17 +31,15 @@
                 <div class="fresh-contain p-center-left">
                     <div>
                         <div class="review-title">
-                            <h4>About Us</h4>
-                            <h2>We make Organic Food In Market</h2>
+                            <h4>Acerca de Nosotros</h4>
+                            <h2>"Atiendo: Tu Compañero de Compras en Línea".</h2>
                         </div>
 
                         <div class="delivery-list">
-                            <p class="text-content">Just a few seconds to measure your body temperature. Up to 5
-                                users! The battery lasts up to 2 years. There are many variations of passages of
-                                Lorem Ipsum available.We started in 2019 and haven't stopped smashing it since. A
-                                global brand that doesn't sleep, we are 24/7 and always bringing something new with
-                                over 100 new products dropping on the monhtly, bringing you the latest looks for
-                                less.</p>
+                            <p class="text-content">En "Atiendo", estamos dedicados a brindarte una experiencia de compra en línea única y excepcional. 
+                                Fundada por un equipo apasionado de entusiastas del comercio electrónico, 
+                                nuestra misión es conectar a las personas con productos de calidad y servicios excepcionales, 
+                                todo desde la comodidad de tu hogar.</p>
 
                             <ul class="delivery-box">
                                 <li>
@@ -51,7 +49,7 @@
                                         </div>
 
                                         <div class="delivery-detail">
-                                            <h5 class="text">Free delivery for all orders</h5>
+                                            <h5 class="text">Entrega gratuita para todos los pedidos.</h5>
                                         </div>
                                     </div>
                                 </li>
@@ -63,7 +61,7 @@
                                         </div>
 
                                         <div class="delivery-detail">
-                                            <h5 class="text">Only fresh foods</h5>
+                                            <h5 class="text">Solo alimentos frescos</h5>
                                         </div>
                                     </div>
                                 </li>
@@ -75,7 +73,7 @@
                                         </div>
 
                                         <div class="delivery-detail">
-                                            <h5 class="text">Free delivery for all orders</h5>
+                                            <h5 class="text">Entrega gratuita para todos los pedidos.</h5>
                                         </div>
                                     </div>
                                 </li>
@@ -87,7 +85,7 @@
                                         </div>
 
                                         <div class="delivery-detail">
-                                            <h5 class="text">Only fresh foods</h5>
+                                            <h5 class="text">Solo alimentos frescos</h5>
                                         </div>
                                     </div>
                                 </li>
@@ -107,8 +105,8 @@
         <div class="row">
             <div class="col-12">
                 <div class="about-us-title text-center">
-                    <h4>What We Do</h4>
-                    <h2 class="center">We are Trusted by Clients</h2>
+                    <h4>¿Que hacemos?</h4>
+                    <h2 class="center">Los clientes confían en nosotros</h2>
                 </div>
 
                 <div class="slider-3_1 product-wrapper">
@@ -118,9 +116,10 @@
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/work.svg" class="blur-up lazyload" alt="">
                             </div>
                             <h2>10</h2>
-                            <h4>Business Years</h4>
-                            <p>A coffee shop is a small business that sells coffee, pastries, and other morning
-                                goods. There are many different types of coffee shops around the world.</p>
+                            <h4>Años en el Mercado</h4>
+                            <p>En "Atiendo", estamos emocionados y agradecidos por celebrar una década de excelencia en el 
+                                mundo del comercio electrónico. Desde nuestros humildes comienzos hasta convertirnos 
+                                en una marca líder en el mercado, esta travesía ha sido emocionante y gratificante..</p>
                         </div>
                     </div>
 
@@ -130,9 +129,10 @@
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/buy.svg" class="blur-up lazyload" alt="">
                             </div>
                             <h2>80 K+</h2>
-                            <h4>Products Sales</h4>
-                            <p>Some coffee shops have a seating area, while some just have a spot to order and then
-                                go somewhere else to sit down. The coffee shop that I am going to.</p>
+                            <h4>Productos Vendidos</h4>
+                            <p>Cada uno de estos 80,000 productos representa un cliente satisfecho, una necesidad cubierta y una 
+                                experiencia de compra exitosa. 
+                                Detrás de cada venta, hay historias y momentos únicos, y estamos agradecidos por formar parte de ellos..</p>
                         </div>
                     </div>
 
@@ -142,9 +142,11 @@
                                 <img src="https://themes.pixelstrap.com/fastkart/assets/svg/3/user.svg" class="blur-up lazyload" alt="">
                             </div>
                             <h2>90%</h2>
-                            <h4>Happy Customers</h4>
-                            <p>My goal for this coffee shop is to be able to get a coffee and get on with my day.
-                                It's a Thursday morning and I am rushing between meetings.</p>
+                            <h4>Cliente Satisfechos</h4>
+                            <p>Nada nos llena de orgullo y gratitud más que saber que nuestros productos han marcado la diferencia en tu vida. 
+                                Tus historias de satisfacción y éxito nos inspiran a seguir mejorando y creciendo. 
+                                Cada producto que vendemos es una oportunidad para hacer tu vida más fácil,
+                                más divertida o más hermosa, y estamos encantados de ser parte de esos momentos especiales..</p>
                         </div>
                     </div>
                 </div>
@@ -158,8 +160,8 @@
 <section class="team-section section-lg-space">
     <div class="container-fluid-lg">
         <div class="about-us-title text-center">
-            <h4 class="text-content">Our Creative Team</h4>
-            <h2 class="center">fastkart team member</h2>
+            <h4 class="text-content">Nuestro Equipo Creativo</h4>
+            <h2 class="center">Miebros del Equipo Atiendo</h2>
         </div>
         <div class="row">
             <div class="col-12">
@@ -374,8 +376,8 @@
 <section class="review-section section-lg-space">
     <div class="container-fluid">
         <div class="about-us-title text-center">
-            <h4 class="text-content">Latest Testimonals</h4>
-            <h2 class="center">What people say</h2>
+            <h4 class="text-content">Ultimos Testimonios</h4>
+            <h2 class="center">Los que dicen nuestros Clientes</h2>
         </div>
         <div class="row">
             <div class="col-12">
@@ -403,11 +405,12 @@
                                 </ul>
                             </div>
 
-                            <h3>Top Quality, Beautiful Location</h3>
+                            <h3>Alta calidad</h3>
 
-                            <p>"I usually try to keep my sadness pent up inside where it can fester quietly as a
-                                mental illness. There, now he's trapped in a book I wrote: a crummy world of plot
-                                holes and spelling errors! As an interesting side note."</p>
+                            <p>En el competitivo mundo del comercio electrónico, nos enorgullece afirmar con confianza que "Atiendo" 
+                                es la mejor plataforma para tus compras en línea. Durante más de una década, 
+                                hemos trabajado incansablemente para perfeccionar cada aspecto de tu experiencia 
+                                de compra y, en el proceso, hemos establecido un estándar de excelencia que nos diferencia de los demás.</p>
 
                             <div class="reviewer-profile">
                                 <div class="reviewer-image">
@@ -728,8 +731,8 @@
 <section class="section-lg-space">
     <div class="container-fluid-lg">
         <div class="about-us-title text-center">
-            <h4 class="text-content">Our Blog</h4>
-            <h2 class="center">Our Latest Blog</h2>
+            <h4 class="text-content">Blog</h4>
+            <h2 class="center">Nuestro ultimo blog</h2>
         </div>
         <div class="row">
             <div class="col-12">
@@ -746,8 +749,8 @@
                             </div>
 
                             <a href="blog-detail.html" class="blog-detail d-block">
-                                <h6>Farmart</h6>
-                                <h5>Fresh Meat Saugage</h5>
+                                <h6>Crema Organica</h6>
+                                <h5>Crema Organica</h5>
                             </a>
                         </div>
                     </div>
@@ -764,8 +767,8 @@
                             </div>
 
                             <a href="blog-detail.html" class="blog-detail d-block">
-                                <h6>Soda Brand</h6>
-                                <h5>Soda 500ml - 20% OFF</h5>
+                                <h6>Carne</h6>
+                                <h5>Carne - 20% OFF</h5>
                             </a>
                         </div>
                     </div>
@@ -782,8 +785,8 @@
                             </div>
 
                             <a href="blog-detail.html" class="blog-detail d-block">
-                                <h6>Beer Brand</h6>
-                                <h5>Soda 500ml - 20% OFF</h5>
+                                <h6>Cerveza</h6>
+                                <h5>Cerveza - 20% OFF</h5>
                             </a>
                         </div>
                     </div>
@@ -800,8 +803,8 @@
                             </div>
 
                             <a href="blog-detail.html" class="blog-detail d-block">
-                                <h6>Beer Brand</h6>
-                                <h5>Fresh Beer -30% OFF</h5>
+                                <h6>Gaseosa</h6>
+                                <h5>Gaseosa -30% OFF</h5>
                             </a>
                         </div>
                     </div>

@@ -30,7 +30,7 @@
                             </div>
 
                             <div class="service-detail">
-                                <h5>Megadescuentos Diarios</h5>
+                                <h5>Mega Descuentos Diarios</h5>
                             </div>
                         </div>
 

@@ -728,7 +728,7 @@
 
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="{{route('quienes-somos')}}"
-                                                >Quiénes Somos?</a>
+                                                >¿Quiénes Somos?</a>
 
                                             <!--<ul class="dropdown-menu">
                                                 <li>

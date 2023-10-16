@@ -14,8 +14,8 @@
                     <div class="home-detail p-center-left w-75">
                         <div>
                             <h6>Oferta Exclusiva <span>30% Off</span></h6>
-                            <h1 class="text-uppercase">Quédate en casa y entrega tu <span class="daily">Necesidades
-                                Diarias</span></h1>
+                            <h1 class="text-uppercase">Quédate en casa y recibe tus <span class="daily">Productos
+                                Diariamente</span></h1>
                             <p class="w-75 d-none d-sm-block">Las verduras contienen muchas vitaminas y minerales que son
                                 bueno para tu salud.</p>
                             <button onclick="location.href = 'shop-left-sidebar.html';"
@@ -36,7 +36,7 @@
                                 <div>
                                     <h2 class="mt-0 text-danger">45% <span class="discount text-title">OFF</span>
                                     </h2>
-                                    <h3 class="theme-color">Coleccion de Nueces</h3>
+                                    <h3 class="theme-color">Nueces</h3>
                                     <p class="w-75">Entregamos verduras y frutas orgánicas.</p>
                                     <a href="shop-left-sidebar.html" class="shop-button">Compra ahora <i
                                             class="fa-solid fa-right-long"></i></a>

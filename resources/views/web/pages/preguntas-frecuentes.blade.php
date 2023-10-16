@@ -7,23 +7,22 @@
         <div class="row">
             <div class="col-12">
                 <div class="breadscrumb-contain">
-                    <h2>Help Center</h2>
-                    <p>We are glad having you here looking for the answer. As our team hardly working on the
-                        product, feel free to ask any questions. We Believe only your feedback might move us
-                        forward.</p>
+                    <h2>Centro de Ayuda</h2>
+                    <p>Nos alegra tenerte aquí buscando la respuesta. Como nuestro equipo apenas trabaja en el
+                        producto, no dude en hacer cualquier pregunta. Creemos que sólo sus comentarios pueden conmovernos.</p>
                     <div class="faq-form-tag">
                         <div class="input-group">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <input type="search" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                                placeholder="nombre@ejemplo.com">
                             <div class="dropdown">
                                 <button class="btn btn-md faq-dropdown-button dropdown-toggle" type="button"
-                                    id="dropdownMenuButton1" data-bs-toggle="dropdown">All
-                                    Product <i class="fa-solid fa-angle-down ms-2"></i></button>
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown">Todos los
+                                    Productos <i class="fa-solid fa-angle-down ms-2"></i></button>
                                 <ul class="dropdown-menu faq-dropdown-menu dropdown-menu-end">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Acción</a></li>
+                                    <li><a class="dropdown-item" href="#">Otra Acción</a></li>
+                                    <li><a class="dropdown-item" href="#">Algo más</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -49,8 +48,8 @@
                             </div>
 
                             <div class="faq-box-contain">
-                                <h3>Getting Started</h3>
-                                <p>Bring to the table win-win survival strategies to ensure proactive domination.
+                                <h3>Comencemos</h3>
+                                <p>Ponga sobre la mesa estrategias de supervivencia beneficiosas para todos para garantizar una dominación proactiva.
                                 </p>
                             </div>
                         </div>
@@ -63,7 +62,7 @@
                             </div>
 
                             <div class="faq-box-contain">
-                                <h3>Sales Question</h3>
+                                <h3>Preguntas de Ventas</h3>
                                 <p>Lorizzle ipsizzle boom shackalack sit get down get down.</p>
                             </div>
                         </div>
@@ -76,7 +75,7 @@
                             </div>
 
                             <div class="faq-box-contain">
-                                <h3>Pricing & Plans</h3>
+                                <h3>Precios y planes</h3>
                                 <p>Curabitizzle fizzle break yo neck, yall quis fo shizzle mah nizzle fo rizzle.</p>
                             </div>
                         </div>
@@ -89,7 +88,7 @@
                             </div>
 
                             <div class="faq-box-contain">
-                                <h3>Support Contact</h3>
+                                <h3>Soporte</h3>
                                 <p>Gizzle fo shizzle bow wow wow bizzle leo bibendizzle check out this.</p>
                             </div>
                         </div>
@@ -107,7 +106,7 @@
         <div class="row">
             <div class="col-xl-5">
                 <div class="faq-contain">
-                    <h2>Frequently Asked Questions</h2>
+                    <h2>Preguntas Frecuentes</h2>
                     <p>We are answering most frequent questions. No worries if you not find exact one. You can find
                         out more by searching or continuing clicking button below or directly <a
                             href="contact-us.html" class="theme-color text-decoration-underline">contact our
