@@ -12,12 +12,12 @@ class WebController extends Controller
     //
     public function index() {
         // Realizar una solicitud GET a la API
-        $urlValorx = 'http://www.valorx.net/Magicxpi4.12/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListItems';
+        /*$urlValorx = 'http://www.valorx.net/Magicxpi4.12/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListItems';
 
         $response = Http::post($urlValorx);
         $response = str_replace("\n", "", $response);
         $response = str_replace("\r", "", $response);
-        $response = str_replace(",,", ",", $response);
+        $response = str_replace(",,", ",", $response);*/
         //dd($response);
 
         return view('web.pages.home');//->with(compact('data'));
