@@ -19,3 +19,4 @@ Route::get('/', [WebController::class, 'index'])->name('/');
 Route::get('quienes-somos', [WebController::class, 'quienesSomo'])->name('quienes-somos');
 Route::get('preguntas-frecuentes', [WebController::class, 'preguntasFrecuentes'])->name('preguntas-frecuentes');
 Route::get('contactanos', [WebController::class, 'contactanos'])->name('contactanos');
+Route::get('productos', [WebController::class, 'productos'])->name('productos');

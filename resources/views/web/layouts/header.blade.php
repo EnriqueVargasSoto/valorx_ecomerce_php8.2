@@ -692,8 +692,7 @@
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav">
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="{{route('/')}}"
-                                                >Inicio</a>
+                                            <a class="nav-link dropdown-toggle" href="{{route('/')}}">Inicio</a>
 
                                             <!--<ul class="dropdown-menu">
                                                 <li>
@@ -727,8 +726,7 @@
                                         </li>
 
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="{{route('quienes-somos')}}"
-                                                >¿Quiénes Somos?</a>
+                                            <a class="nav-link dropdown-toggle" href="{{route('quienes-somos')}}">¿Quiénes Somos?</a>
 
                                             <!--<ul class="dropdown-menu">
                                                 <li>
@@ -761,8 +759,11 @@
                                         </li>
 
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="{{route('preguntas-frecuentes')}}"
-                                                >Preguntas Frecuentes</a>
+                                            <a class="nav-link dropdown-toggle" href="{{route('productos')}}">Productos</a>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="{{route('preguntas-frecuentes')}}">Preguntas Frecuentes</a>
 
                                             <!--<ul class="dropdown-menu">
                                                 <li>
@@ -804,8 +805,7 @@
                                         </li>
 
                                         <li class="nav-item dropdown dropdown-mega">
-                                            <a class="nav-link dropdown-toggle ps-xl-2 ps-0"
-                                                href="{{route('contactanos')}}" >Contáctanos</a>
+                                            <a class="nav-link dropdown-toggle ps-xl-2 ps-0" href="{{route('contactanos')}}" >Contáctanos</a>
 
                                             <!--<div class="dropdown-menu dropdown-menu-2">
                                                 <div class="row">
