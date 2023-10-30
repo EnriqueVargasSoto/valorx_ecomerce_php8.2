@@ -293,7 +293,91 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
-                                        <h6>Vegetales y Frutas</h6>
+                                        <h6>Frutas</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Frutas Frescas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Berries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Cítricos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Manzanas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Platanos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Frutos Secos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Paltas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Piñas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Tropicales</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Frutas Exoticas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Sandia y Melon</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Uvas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Durazno</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Granadillas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Papayas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Peras</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Tunas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Lúcuma</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="list-2">
+                                            <div class="category-title-box">
+                                                <h5>Frutas Congeladas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pulpas</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Picada</a>
+                                                </li>                                               
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
+                                        <h6>Verduras</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -356,12 +440,12 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </li>
+                                </li>                                
 
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg" alt="">
-                                        <h6>Bebidas</h6>
+                                        <h6>Abarrotes</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -400,7 +484,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg" alt="">
-                                        <h6>Carnes y Mariscos</h6>
+                                        <h6>Lacteos</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -459,7 +543,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg" alt="">
-                                        <h6>Desayuno y Lácteos</h6>
+                                        <h6>Carnes, Aves&Pescados</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -533,7 +617,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
-                                        <h6>Comidas congeladas</h6>
+                                        <h6>Bebidas & Licores</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -566,7 +650,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg" alt="">
-                                        <h6>Galletas y bocadillos</h6>
+                                        <h6>Limpieza</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -619,7 +703,7 @@
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg" alt="">
-                                        <h6>Abarrotes y productos básicos</h6>
+                                        <h6>Bebes</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
@@ -677,6 +761,238 @@
                                         </div>
                                     </div>
                                 </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                        <h6>Mascotas</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box w-100">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Fideos, Pastas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                        <h6>Libreria</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box w-100">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Fideos, Pastas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                        <h6>Cuidado Personal</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box w-100">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Fideos, Pastas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                        <h6>Bazar</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box w-100">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Fideos, Pastas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                        <h6>Panaderia & Pasteleria</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box w-100">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Fideos, Pastas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                        <h6>Mundo Sostenible</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box w-100">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Fideos, Pastas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="onhover-category-list">
+                                    <a href="javascript:void(0)" class="category-name">
+                                        <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                                        <h6>Desayunos</h6>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+
+                                    <div class="onhover-category-box w-100">
+                                        <div class="list-1">
+                                            <div class="category-title-box">
+                                                <h5>Fideos, Pastas</h5>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos instantáneos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos Hakka</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos de taza</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Fideos</a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)">Pasta Instantánea</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
