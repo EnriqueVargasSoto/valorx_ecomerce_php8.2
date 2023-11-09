@@ -66,4 +66,8 @@ class WebController extends Controller
         return view('web.pages.contactanos');
     }
 
+    public function cart(){
+        return view('web.pages.cart');
+    }
+
 }

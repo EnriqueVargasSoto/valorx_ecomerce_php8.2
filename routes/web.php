@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\WebController;
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,7 @@ Route::get('quienes-somos', [WebController::class, 'quienesSomo'])->name('quiene
 Route::get('preguntas-frecuentes', [WebController::class, 'preguntasFrecuentes'])->name('preguntas-frecuentes');
 Route::get('contactanos', [WebController::class, 'contactanos'])->name('contactanos');
 Route::get('productos', [WebController::class, 'productos'])->name('productos');
+Route::get('cart', [WebController::class, 'cart'])->name('cart');
+
+
+Route::post('/cart-add', [CartController::class, 'add'])->name('cart.add');

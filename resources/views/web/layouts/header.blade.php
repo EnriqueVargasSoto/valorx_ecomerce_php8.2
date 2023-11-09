@@ -175,14 +175,39 @@
                                     <div class="onhover-dropdown header-badge">
                                         <button type="button" class="btn p-0 position-relative header-wishlist">
                                             <i data-feather="shopping-cart"></i>
-                                            <span class="position-absolute top-0 start-100 translate-middle badge">2
-                                                <span class="visually-hidden">mensajes no leídos</span>
+                                            @if (count(Cart::getContent()))
+                                            <span class="position-absolute top-0 start-100 translate-middle badge">
+                                                {{count(Cart::getContent())}}
+                                                <!--<span class="visually-hidden">mensajes no leídos</span>-->
                                             </span>
+                                            @endif
+
                                         </button>
 
+                                        @if (count(Cart::getContent()))
                                         <div class="onhover-div">
                                             <ul class="cart-list">
+                                                @foreach (Cart::getContent() as $item)
                                                 <li class="product-box-contain">
+                                                    <div class="drop-cart">
+                                                        <a href="product-left-thumbnail.html" class="drop-image">
+                                                            <img src="{{ asset('web/assets/images/vegetable/product/1.png')}}"
+                                                                class="blur-up lazyload" alt="">
+                                                        </a>
+
+                                                        <div class="drop-contain">
+                                                            <a href="product-left-thumbnail.html">
+                                                                <h5>{{$item->name}}</h5>
+                                                            </a>
+                                                            <h6><span>{{$item->quantity}} x</span> S/. {{$item->price}}</h6>
+                                                            <button class="close-button close_button">
+                                                                <i class="fa-solid fa-xmark"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                @endforeach
+                                                {{--<li class="product-box-contain">
                                                     <div class="drop-cart">
                                                         <a href="product-left-thumbnail.html" class="drop-image">
                                                             <img src="{{ asset('web/assets/images/vegetable/product/1.png')}}"
@@ -219,20 +244,22 @@
                                                             </button>
                                                         </div>
                                                     </div>
-                                                </li>
+                                                </li>--}}
                                             </ul>
 
                                             <div class="price-box">
                                                 <h5>Total :</h5>
-                                                <h4 class="theme-color fw-bold">S/. 106.58</h4>
+                                                <h4 class="theme-color fw-bold">S/. {{Cart::getTotal()}}</h4>
                                             </div>
 
                                             <div class="button-group">
-                                                <a href="#" class="btn btn-sm cart-button">Ver Carrito</a>
+                                                <a href="{{route('cart')}}" class="btn btn-sm cart-button">Ver Carrito</a>
                                                 <a href="#" class="btn btn-sm cart-button theme-bg-color
                                                 text-white">Verificar</a>
                                             </div>
                                         </div>
+                                        @endif
+
                                     </div>
                                 </li>
                                 <li class="right-side onhover-dropdown">

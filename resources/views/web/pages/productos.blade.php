@@ -896,12 +896,28 @@
                                     <h5 class="price"><span class="theme-color">$08.02</span> <del>$15.15</del>
                                     </h5>
                                     <div class="add-to-cart-box bg-white">
-                                        <button class="btn btn-add-cart addcart-button">Add
-                                            <span class="add-icon bg-light-gray">
-                                                <i class="fa-solid fa-plus"></i>
-                                            </span>
-                                        </button>
-                                        <div class="cart_qty qty-box">
+                                        <form action="{{route('cart.add')}}" method="post">
+                                            @csrf
+                                            <input type="text" name="item_cod" hidden value="{{$product['item_cod']}}">
+                                            <input type="text" name="item_dsc" hidden value="{{$product['item_dsc']}}">
+                                            <input type="text" name="marca_cod" hidden value="{{$product['marca_cod']}}">
+                                            <input type="text" name="marca_dsc" hidden value="{{$product['marca_dsc']}}">
+                                            <input type="text" name="categoria_cod" hidden value="{{$product['categoria_cod']}}">
+                                            <input type="text" name="categoria_dsc" hidden value="{{$product['categoria_dsc']}}">
+                                            <input type="text" name="unidad_man" hidden value="{{$product['unidad_man']}}">
+                                            <input type="text" name="item_status" hidden value="{{$product['item_status']}}">
+                                            <input type="text" name="item_url" hidden value="{{$product['item_url']}}">
+                                            <input type="text" name="subcategoria_cod" hidden value="{{$product['subcategoria_cod']}}">
+                                            <input type="text" name="subcategoria_dsc" hidden value="{{$product['subcategoria_dsc']}}">
+
+                                            <button type="submit" class="btn btn-add-cart addcart-button">Add
+                                                <span class="add-icon bg-light-gray">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                            </button>
+                                        </form>
+
+                                        {{--<div class="cart_qty qty-box">
                                             <div class="input-group bg-white">
                                                 <button type="button" class="qty-left-minus bg-gray"
                                                     data-type="minus" data-field="">
@@ -914,7 +930,7 @@
                                                     <i class="fa fa-plus" aria-hidden="true"></i>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div>--}}
                                     </div>
                                 </div>
                             </div>
