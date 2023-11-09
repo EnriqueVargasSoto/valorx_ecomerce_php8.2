@@ -13,11 +13,10 @@
                     </div>
                     <div class="home-detail p-center-left w-75">
                         <div>
-                            <h6>Oferta Exclusiva <span>30% Off</span></h6>
-                            <h1 class="text-uppercase">Quédate en casa y recibe tus <span class="daily">Productos
-                                Diariamente</span></h1>
-                            <p class="w-75 d-none d-sm-block">Las verduras contienen muchas vitaminas y minerales que son
-                                bueno para tu salud.</p>
+                            <h6>Oferta Exclusiva <span>20% Off</span></h6>
+                            <h1 class="text-uppercase">¡Solo por Hoy! <span class="daily">AÑEJADO NATURALMENTE</span></h1>
+                            <p class="w-75 d-none d-sm-block">18 años de añejamiento natural, sin aditivos <br>
+                            o ingredientes artificiales. En resumen, <br>un ron creado por la naturaleza...</p>
                             <button onclick="location.href = 'shop-left-sidebar.html';"
                                 class="btn btn-animation mt-xxl-4 mt-2 home-button mend-auto">Compra Ahora <i
                                     class="fa-solid fa-right-long icon"></i></button>
@@ -34,11 +33,11 @@
                                 alt="">
                             <div class="home-detail p-center-left home-p-sm w-75">
                                 <div>
-                                    <h2 class="mt-0 text-danger">45% <span class="discount text-title">OFF</span>
+                                    <h2 class="mt-0 text-danger">30% <span class="discount text-title">OFF</span>
                                     </h2>
-                                    <h3 class="theme-color">Nueces</h3>
-                                    <p class="w-75">Entregamos verduras y frutas orgánicas.</p>
-                                    <a href="shop-left-sidebar.html" class="shop-button">Compra ahora <i
+                                    <h3 class="theme-color">Bonobon</h3>
+                                    <p class="w-75">Transforma tu día con un...</p>
+                                    <a href="shop-left-sidebar.html" class="shop-button">Compra ya!!<i
                                             class="fa-solid fa-right-long"></i></a>
                                 </div>
                             </div>
@@ -51,10 +50,10 @@
                                 alt="">
                             <div class="home-detail p-center-left home-p-sm w-75">
                                 <div>
-                                    <h3 class="mt-0 theme-color fw-bold">Comida Sana</h3>
-                                    <h4 class="text-danger">Mercado Orgánico</h4>
-                                    <p class="organic">Comienza tus compras diarias con algunos alimentos orgánicos.</p>
-                                    <a href="shop-left-sidebar.html" class="shop-button">Compra ahora <i
+                                    <h3 class="mt-0 theme-color fw-bold">Jack Daniel's</h3>
+                                    <h4 class="text-danger">Tennessee Apple</h4>
+                                    <p class="organic">Le dimos vuelta al lado mas dulce de Jack...</p>
+                                    <a href="shop-left-sidebar.html" class="shop-button">Compra ya!!<i
                                             class="fa-solid fa-right-long"></i></a>
                                 </div>
                             </div>
@@ -73,12 +72,12 @@
         <div class="banner-slider">
             <div>
                 <div class="banner-contain hover-effect">
-                    <img src="{{ asset('web/assets/images/vegetable/banner/4.jpg')}}" class="bg-img blur-up lazyload" alt="">
+                    <img src="{{ asset('web/assets/images/vegetable/banner/16.jpg')}}" class="bg-img blur-up lazyload" alt="">
                     <div class="banner-details">
                         <div class="banner-box">
                             <h6 class="text-danger">5% OFF</h6>
-                            <h5>Ofertas especiales en artículos nuevos</h5>
-                            <h6 class="text-content">Productos del dia a dia huevos y lácteos</h6>
+                            <h5>Pastas y Salsas Molitalia</h5>
+                            <h6 class="text-content">La combinación perfecta</h6>
                         </div>
                         <a href="shop-left-sidebar.html" class="banner-button text-white">Compra ahora<i
                                 class="fa-solid fa-right-long ms-2"></i></a>
@@ -92,8 +91,8 @@
                     <div class="banner-details">
                         <div class="banner-box">
                             <h6 class="text-danger">5% OFF</h6>
-                            <h5>Compre más ahorre más</h5>
-                            <h6 class="text-content">Vegetales Frescos</h6>
+                            <h5>Frutas de la Estación</h5>
+                            <h6 class="text-content">Compre más ahorre más</h6>
                         </div>
                         <a href="shop-left-sidebar.html" class="banner-button text-white">Compra ahora <i
                                 class="fa-solid fa-right-long ms-2"></i></a>
@@ -107,8 +106,8 @@
                     <div class="banner-details">
                         <div class="banner-box">
                             <h6 class="text-danger">5% OFF</h6>
-                            <h5>Carne Organica Preparada</h5>
-                            <h6 class="text-content">Entregado en su hogar</h6>
+                            <h5>Carnes y Embutidos</h5>
+                            <h6 class="text-content">Fresca y Congelada</h6>
                         </div>
                         <a href="shop-left-sidebar.html" class="banner-button text-white">Compra ahora <i
                                 class="fa-solid fa-right-long ms-2"></i></a>
@@ -122,8 +121,8 @@
                     <div class="banner-details">
                         <div class="banner-box">
                             <h6 class="text-danger">5% OFF</h6>
-                            <h5>Compre más ahorre más</h5>
-                            <h6 class="text-content">Nueces y snacks</h6>
+                            <h5>Nueces y mani</h5>
+                            <h6 class="text-content">Para compartir</h6>
                         </div>
                         <a href="shop-left-sidebar.html" class="banner-button text-white">Compra ahora <i
                                 class="fa-solid fa-right-long ms-2"></i></a>
@@ -142,7 +141,7 @@
             <div class="col-xxl-3 col-xl-4 d-none d-xl-block">
                 <div class="p-sticky">
                     <div class="category-menu">
-                        <h3>Categoria</h3>
+                        <h3>Categoriaaaa</h3>
                         <ul>
                             <li>
                                 <div class="category-list">
@@ -257,10 +256,10 @@
                                 alt="">
                             <div class="home-detail p-top-left home-p-medium">
                                 <div>
-                                    <h6 class="text-yellow home-banner">Mariscos</h6>
+                                    <h6 class="text-yellow home-banner">Diversión asegurada con...</h6>
                                     <h3 class="text-uppercase fw-normal"><span
-                                            class="theme-color fw-bold">Frescos</span> Productos</h3>
-                                    <h3 class="fw-light">Cada Hora</h3>
+                                            class="theme-color fw-bold">PARTY</span> BOX</h3>
+                                    <h3 class="fw-light">¡Listo para la Fiesta!</h3>
                                     <button onclick="location.href = 'shop-left-sidebar.html';"
                                         class="btn btn-animation btn-md mend-auto">Compra ahora <i
                                             class="fa-solid fa-arrow-right icon"></i></button>
@@ -1568,8 +1567,8 @@
                     <div>
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" class="blur-up lazyload" alt="">
-                                <h5>Verduras & Frutas</h5>
+                                <img src="	https://media.freshmart.pe/category-recommend/Departamentos_VerdurasNUEVO.png" class="blur-up lazyload" alt="">
+                                <h5>Verduras</h5>
                             </div>
                         </a>
                     </div>
@@ -1577,8 +1576,8 @@
                     <div>
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg" class="blur-up lazyload" alt="">
-                                <h5>Bebidas</h5>
+                                <img src="https://media.freshmart.pe/category-recommend/Departamentos_Limpieza.png" class="blur-up lazyload" alt="">
+                                <h5>Limieza</h5>
                             </div>
                         </a>
                     </div>
@@ -1586,8 +1585,8 @@
                     <div>
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg" class="blur-up lazyload" alt="">
-                                <h5>Carnes & Mariscos</h5>
+                                <img src="https://media.freshmart.pe/category-recommend/Departamentos_CarnesYPescados.png" class="blur-up lazyload" alt="">
+                                <h5>Carnes</h5>
                             </div>
                         </a>
                     </div>
@@ -1595,8 +1594,8 @@
                     <div>
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg" class="blur-up lazyload" alt="">
-                                <h5>Desayunos</h5>
+                                <img src="https://media.freshmart.pe/category-recommend/Departamentos_FrutasNUEVO.png" class="blur-up lazyload" alt="">
+                                <h5>Frutas</h5>
                             </div>
                         </a>
                     </div>
@@ -1604,8 +1603,8 @@
                     <div>
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" class="blur-up lazyload" alt="">
-                                <h5>Comidas congeladas</h5>
+                                <img src="https://media.freshmart.pe/category-recommend/Departamentos_Lacteos.png" class="blur-up lazyload" alt="">
+                                <h5>Lacteos</h5>
                             </div>
                         </a>
                     </div>
@@ -1613,8 +1612,8 @@
                     <div>
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg" class="blur-up lazyload" alt="">
-                                <h5>Leche y Lácteos</h5>
+                                <img src="	https://media.freshmart.pe/category-recommend/Departamentos_Bebidas.png" class="blur-up lazyload" alt="">
+                                <h5>Bebidas & Licores/h5>
                             </div>
                         </a>
                     </div>
@@ -1622,7 +1621,7 @@
                     <div>
                         <a href="shop-left-sidebar.html" class="category-box category-dark">
                             <div>
-                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg" class="blur-up lazyload" alt="">
+                                <img src="	https://media.freshmart.pe/category-recommend/Departamentos_MascotasNUEVO.png" class="blur-up lazyload" alt="">
                                 <h5>Alimentos para Mascotas</h5>
                             </div>
                         </a>
