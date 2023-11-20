@@ -12,9 +12,13 @@ class WebController extends Controller
     //
     public function index() {
         // Realizar una solicitud GET a la API
-        $urlValorx = 'http://www.valorx.net/Magicxpi4.12/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListItems';
+        $urlValorx = 'http://valorx.net/Magicxpi4.12/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListItems&Compania=0054&Sucursal=02';
 
-        $response = Http::get($urlValorx);
+        $response = Http::post($urlValorx, $data = [
+            "lista_precio" => "1",
+            "pagina" => 0,
+            "filtroxnombre" => ""
+        ]);
         //$response = str_replace('b"""', "", $response);
         $response = str_replace("\n", "", $response);
         $response = str_replace("\r", "", $response);
@@ -23,6 +27,7 @@ class WebController extends Controller
             //$body = $response->body();
             $data = iconv('ISO-8859-1', 'UTF-8', $response);//utf8_decode($response);
             $products = json_decode($data, true);
+            //dd($products);
             $products = $products['items'];
             foreach ($products as $key => $product) {
                 //dd($product);
@@ -41,14 +46,19 @@ class WebController extends Controller
     }
 
     public function productos() {
-        $urlValorx = 'http://www.valorx.net/Magicxpi4.12/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListItems';
+        $urlValorx = 'http://valorx.net/Magicxpi4.12/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListItems&Compania=0054&Sucursal=02';
 
-        $response = Http::get($urlValorx);
+        $response = Http::post($urlValorx, $data = [
+            "lista_precio" => "1",
+            "pagina" => 0,
+            "filtroxnombre" => ""
+        ]);
         $response = str_replace("\n", "", $response);
         $response = str_replace("\r", "", $response);
 
         $data = iconv('ISO-8859-1', 'UTF-8', $response);//utf8_decode($response);
         $products = json_decode($data, true);
+        //dd($products);
         $products = $products['items'];
 
         return view('web.pages.productos', compact('products'));

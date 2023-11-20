@@ -937,7 +937,7 @@
                         </div>
                     </div>
                     @endforeach
-                    <div>
+                    {{--<div>
                         <div class="product-box-3 h-100 wow fadeInUp">
                             <div class="product-header">
                                 <div class="product-image">
@@ -2207,7 +2207,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
 
                 <nav class="custome-pagination">
