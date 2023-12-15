@@ -317,14 +317,15 @@
                             </div>
 
                             <ul class="category-list">
+                                @foreach ($categorias as $categoria)
                                 <li class="onhover-category-list">
-                                    <a href="javascript:void(0)" class="category-name">
+                                    <a href="{{route('productos.categoria', $categoria['categoria_cod'])}}" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
-                                        <h6>Frutas</h6>
+                                        <h6>{{$categoria['categoria_dsc']}}</h6>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </a>
 
-                                    <div class="onhover-category-box">
+                                    {{--<div class="onhover-category-box">
                                         <div class="list-1">
                                             <div class="category-title-box">
                                                 <h5>Frutas Frescas</h5>
@@ -394,14 +395,16 @@
                                                 </li>
                                                 <li>
                                                     <a href="javascript:void(0)">Picada</a>
-                                                </li>                                               
+                                                </li>
                                             </ul>
                                         </div>
 
-                                    </div>
+                                    </div>--}}
                                 </li>
+                                @endforeach
 
-                                <li class="onhover-category-list">
+
+                                {{--<li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
                                         <h6>Verduras</h6>
@@ -467,7 +470,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </li>                                
+                                </li>
 
                                 <li class="onhover-category-list">
                                     <a href="javascript:void(0)" class="category-name">
@@ -1018,7 +1021,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </li>
+                                </li>--}}
 
                             </ul>
                         </div>

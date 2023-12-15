@@ -106,16 +106,19 @@
                                         </div>--}}
 
                                         <ul class="category-list custom-padding custom-height" style="max-height: 500px;">
+                                            @foreach ($categorias as $categoria)
                                             <li>
                                                 <div class="form-check ps-0 m-0 category-list-box">
-                                                    <input class="checkbox_animated" type="checkbox" id="fruit">
+                                                    {{--<input class="checkbox_animated" type="checkbox" id="fruit">--}}
                                                     <label class="form-check-label" for="fruit">
-                                                        <span class="name">Fruits & Vegetables</span>
-                                                        <span class="number">(15)</span>
+                                                        <span class="name">{{$categoria['categoria_dsc']}}</span>
+                                                        {{--<span class="number">(15)</span>--}}
                                                     </label>
                                                 </div>
                                             </li>
-                                            <li>
+                                            @endforeach
+
+                                            {{--<li>
                                                 <div class="form-check ps-0 m-0 category-list-box">
                                                     <input class="checkbox_animated" type="checkbox" id="cake">
                                                     <label class="form-check-label" for="cake">
@@ -240,7 +243,7 @@
                                                         <span class="number">(03)</span>
                                                     </label>
                                                 </div>
-                                            </li>
+                                            </li>--}}
                                         </ul>
                                     </div>
                                 </div>
@@ -837,7 +840,7 @@
                             <div class="product-header">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="{{ asset('web/assets/images/cake/product/2.png')}}"
+                                        <img src="{{$product['item_url']}}"
                                             class="img-fluid blur-up lazyload" alt="">
                                     </a>
 

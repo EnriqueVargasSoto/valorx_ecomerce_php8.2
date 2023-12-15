@@ -23,5 +23,7 @@ Route::get('contactanos', [WebController::class, 'contactanos'])->name('contacta
 Route::get('productos', [WebController::class, 'productos'])->name('productos');
 Route::get('cart', [WebController::class, 'cart'])->name('cart');
 
+Route::get('products/{id}', [WebController::class, 'productosCategoria'])->name('productos.categoria');
+
 
 Route::post('/cart-add', [CartController::class, 'add'])->name('cart.add');
