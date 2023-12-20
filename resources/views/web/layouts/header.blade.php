@@ -319,7 +319,7 @@
                             <ul class="category-list">
                                 @foreach ($categorias as $categoria)
                                 <li class="onhover-category-list">
-                                    <a href="{{route('productos.categoria', $categoria['categoria_cod'])}}" class="category-name">
+                                    <a href="{{route('productos.categoria', ['id' => $categoria['categoria_dsc'], 'paginaActual' => 0])}}" class="category-name">
                                         <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
                                         <h6>{{$categoria['categoria_dsc']}}</h6>
                                         <i class="fa-solid fa-angle-right"></i>
@@ -1104,9 +1104,9 @@
                                             </ul>-->
                                         </li>
 
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="{{route('productos')}}">Productos</a>
-                                        </li>
+                                        {{--<li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="{{route('productos', 0)}}">Productos</a>
+                                        </li>--}}
 
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="{{route('preguntas-frecuentes')}}">Preguntas Frecuentes</a>

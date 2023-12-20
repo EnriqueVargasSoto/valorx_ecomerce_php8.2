@@ -20,10 +20,10 @@ Route::get('/', [WebController::class, 'index'])->name('/');
 Route::get('quienes-somos', [WebController::class, 'quienesSomo'])->name('quienes-somos');
 Route::get('preguntas-frecuentes', [WebController::class, 'preguntasFrecuentes'])->name('preguntas-frecuentes');
 Route::get('contactanos', [WebController::class, 'contactanos'])->name('contactanos');
-Route::get('productos', [WebController::class, 'productos'])->name('productos');
+Route::get('productos/{paginaActual}', [WebController::class, 'productos'])->name('productos');
 Route::get('cart', [WebController::class, 'cart'])->name('cart');
 
-Route::get('products/{id}', [WebController::class, 'productosCategoria'])->name('productos.categoria');
+Route::get('products/{id}/{paginaActual}', [WebController::class, 'productosCategoria'])->name('productos.categoria');
 
 
 Route::post('/cart-add', [CartController::class, 'add'])->name('cart.add');

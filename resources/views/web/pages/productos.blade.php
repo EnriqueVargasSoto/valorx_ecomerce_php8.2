@@ -110,10 +110,10 @@
                                             <li>
                                                 <div class="form-check ps-0 m-0 category-list-box">
                                                     {{--<input class="checkbox_animated" type="checkbox" id="fruit">--}}
-                                                    <label class="form-check-label" for="fruit">
+                                                    <a href="{{route('productos.categoria', ['id' => $categoria['categoria_dsc'], 'paginaActual' => 0])}}" class="form-check-label" for="fruit">
                                                         <span class="name">{{$categoria['categoria_dsc']}}</span>
                                                         {{--<span class="number">(15)</span>--}}
-                                                    </label>
+                                                    </a>
                                                 </div>
                                             </li>
                                             @endforeach
@@ -2213,7 +2213,7 @@
                     </div>--}}
                 </div>
 
-                <nav class="custome-pagination">
+                {{--<nav class="custome-pagination">
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled">
                             <a class="page-link" href="javascript:void(0)" tabindex="-1" aria-disabled="true">
@@ -2231,6 +2231,28 @@
                         </li>
                         <li class="page-item">
                             <a class="page-link" href="javascript:void(0)">
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>--}}
+                <nav class="custome-pagination">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a class="page-link" @if($paginasTotal > 1 && ($paginaActual+1) > ($paginasTotal-1)) href="{{route('productos.categoria', ['id' => $id, 'paginaActual' => ($paginaActual-1)])}}" @endif>
+                                <i class="fa-solid fa-angles-left"></i>
+                            </a>
+                        </li>
+                        @foreach (range(1, $paginasTotal) as $pagina)
+                        <li class="page-item @if($paginaActual == ($pagina-1)) active @endif">
+                            <a class="page-link" @if($paginaActual != ($pagina-1)) href="{{route('productos.categoria', ['id' => $id, 'paginaActual' => ($pagina-1)])}}" @endif>{{$pagina}}</a>
+                        </li>
+                        @endforeach
+
+
+
+                        <li class="page-item">
+                            <a class="page-link" @if($paginasTotal > 1 && $paginaActual < ($paginasTotal -1)) href="{{route('productos.categoria', ['id' => $id, 'paginaActual' => ($paginaActual+1)])}}" @endif>
                                 <i class="fa-solid fa-angles-right"></i>
                             </a>
                         </li>
