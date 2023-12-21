@@ -106,7 +106,7 @@
                                 <i class="fa-solid fa-bars"></i>
                             </span>
                         </button>
-                        <a href="index-2.html" class="web-logo nav-logo">
+                        <a href="{{route('/')}}" class="web-logo nav-logo">
                             <img src="{{ asset('logo.svg')}}" class="img-fluid blur-up lazyload" alt="">
                         </a>
 
@@ -191,7 +191,7 @@
                                                 <li class="product-box-contain">
                                                     <div class="drop-cart">
                                                         <a href="product-left-thumbnail.html" class="drop-image">
-                                                            <img src="{{ asset('web/assets/images/vegetable/product/1.png')}}"
+                                                            <img src="{{ $item->attributes->urlfoto}}"
                                                                 class="blur-up lazyload" alt="">
                                                         </a>
 
@@ -199,10 +199,10 @@
                                                             <a href="product-left-thumbnail.html">
                                                                 <h5>{{$item->name}}</h5>
                                                             </a>
-                                                            <h6><span>{{$item->quantity}} x</span> S/. {{$item->price}}</h6>
-                                                            <button class="close-button close_button">
+                                                            <h6><span>{{$item->quantity}} x</span> S/. {{number_format($item->price, 2)}}</h6>
+                                                            <a class="close-button close_button" href="{{route('cart.remove', $item->id)}}">
                                                                 <i class="fa-solid fa-xmark"></i>
-                                                            </button>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -249,7 +249,7 @@
 
                                             <div class="price-box">
                                                 <h5>Total :</h5>
-                                                <h4 class="theme-color fw-bold">S/. {{Cart::getTotal()}}</h4>
+                                                <h4 class="theme-color fw-bold">S/. {{number_format(Cart::getTotal(), 2)}}</h4>
                                             </div>
 
                                             <div class="button-group">

@@ -26,12 +26,19 @@ class CartController extends Controller
             $request->subcategoria_dsc,*/
             $request->item_cod,
             $request->item_dsc,
-            0.00,
-            1,
+            $request->precio,
+            $request->cantidad,
             array("urlfoto"=>$request->item_url, "unidad" => $request->unidad_man,)
 
         );
         return back()->with('success',"$request->item_dsc ¡se ha agregado con éxito al carrito!");
+
+    }
+
+    public function remove($id){
+
+        Cart::remove($id);
+        return back()->with('success',"$id ¡se ha eliminado con éxito al carrito!");
 
     }
 }

@@ -40,7 +40,7 @@
                                     <td class="product-detail">
                                         <div class="product border-0">
                                             <a href="product-left-thumbnail.html" class="product-image">
-                                                <img src="{{asset('web/assets/images/vegetable/product/1.png')}}"
+                                                <img src="{{ $item->attributes->urlfoto}}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
                                             <div class="product-detail">
@@ -49,7 +49,7 @@
                                                         <a href="#"><span style="word-wrap: break-word;white-space: normal;max-width: 100%;">{{$item->name}}</span></a>
                                                     </li>
 
-                                                    <li class="text-content"><span class="text-title">Sold
+                                                    {{--<li class="text-content"><span class="text-title">Sold
                                                             By:</span> Fresho</li>
 
                                                     <li class="text-content"><span
@@ -86,7 +86,7 @@
 
                                                     <li>
                                                         <h5>Total: $35.10</h5>
-                                                    </li>
+                                                    </li>--}}
                                                 </ul>
                                             </div>
                                         </div>
@@ -94,8 +94,8 @@
 
                                     <td class="price">
                                         <h4 class="table-title text-content">Precio</h4>
-                                        <h5>S/. {{$item->price}} <del class="text-content">$45.68</del></h5>
-                                        <h6 class="theme-color">You Save : S/. {{$item->price}}</h6>
+                                        <h5>S/. {{number_format($item->price, 2)}} {{--<del class="text-content">$45.68</del>--}}</h5>
+                                        {{--<h6 class="theme-color">You Save : S/. {{$item->price}}</h6>--}}
                                     </td>
 
                                     <td class="quantity">
@@ -120,7 +120,7 @@
 
                                     <td class="subtotal">
                                         <h4 class="table-title text-content">Total</h4>
-                                        <h5>S/. {{$item->price * $item->quantity}}</h5>
+                                        <h5>S/. {{number_format($item->price * $item->quantity, 2)}}</h5>
                                     </td>
 
                                     <td class="save-remove">

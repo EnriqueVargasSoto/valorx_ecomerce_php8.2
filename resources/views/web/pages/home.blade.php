@@ -141,17 +141,20 @@
             <div class="col-xxl-3 col-xl-4 d-none d-xl-block">
                 <div class="p-sticky">
                     <div class="category-menu">
-                        <h3>Categoriaaaa</h3>
+                        <h3>Categorias</h3>
                         <ul>
+                            @foreach ($categorias as $categoria)
                             <li>
                                 <div class="category-list">
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" class="blur-up lazyload" alt="">
                                     <h5>
-                                        <a href="shop-left-sidebar.html">Vegetales & Frutas</a>
+                                        <a href="{{route('productos.categoria', ['id' => $categoria['categoria_dsc'], 'paginaActual' => 0])}}">{{$categoria['categoria_dsc']}}</a>
                                     </h5>
                                 </div>
                             </li>
-                            <li>
+                            @endforeach
+
+                            {{--<li>
                                 <div class="category-list">
                                     <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg" class="blur-up lazyload" alt="">
                                     <h5>
@@ -222,10 +225,10 @@
                                         <a href="shop-left-sidebar.html">Alimentos para mascotas</a>
                                     </h5>
                                 </div>
-                            </li>
+                            </li>--}}
                         </ul>
 
-                        <ul class="value-list">
+                        {{--<ul class="value-list">
                             <li>
                                 <div class="category-list">
                                     <h5 class="ms-0 text-title">
@@ -247,7 +250,7 @@
                                     </h5>
                                 </div>
                             </li>
-                        </ul>
+                        </ul>--}}
                     </div>
 
                     <div class="ratio_156 section-t-space">

@@ -22,7 +22,7 @@ class WebController extends Controller
         $data = iconv('ISO-8859-1', 'UTF-8', $responseCategoria);
         $categorias = json_decode($data, true);
         $categorias = $categorias['categoria'];
-        //dd($categorias);
+       // dd($categorias);
 
         $response = Http::post($urlValorx, $data = [
             "lista_precio" => "1",
@@ -111,6 +111,34 @@ class WebController extends Controller
         return view('web.pages.productos', compact('id', 'categorias','products', 'paginaActual', 'paginasTotal'));
     }
 
+    public function producto($id){
+        $urlCategorias = 'http://www.valorx.net/XMap.Services/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListCateg&Compania=0004&Sucursal=01';
+        $urlValorx = 'http://www.valorx.net/XMap.Services/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23StockItem&Compania=0004&Sucursal=01';
+
+        $responseCategoria = Http::post($urlCategorias);
+        $responseCategoria = str_replace("\n", "", $responseCategoria);
+        $responseCategoria = str_replace("\r", "", $responseCategoria);
+        $data = iconv('ISO-8859-1', 'UTF-8', $responseCategoria);
+        $categorias = json_decode($data, true);
+        $categorias = $categorias['categoria'];
+
+        $response = Http::post($urlValorx, $data = [
+            "lista_precio" => "1",
+            //"pagina" => 0,
+            "item_cod" => $id
+        ]);
+       //dd($response->body());
+        $response = str_replace("\u{FEFF}", "", $response);
+        $response = str_replace("\r", "", $response);
+
+        $data = iconv('ISO-8859-1', 'UTF-8', $response);
+        $product = json_decode($data, true);
+        //dd($product);
+        //$products = $products['items'];
+
+        return view('web.pages.producto', compact('categorias', 'product'));
+    }
+
     public function quienesSomo() {
         return view('web.pages.quienes-somos');
     }
@@ -124,7 +152,15 @@ class WebController extends Controller
     }
 
     public function cart(){
-        return view('web.pages.cart');
+        $urlCategorias = 'http://www.valorx.net/XMap.Services/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListCateg&Compania=0004&Sucursal=01';
+        $responseCategoria = Http::post($urlCategorias);
+        $responseCategoria = str_replace("\n", "", $responseCategoria);
+        $responseCategoria = str_replace("\r", "", $responseCategoria);
+        $data = iconv('ISO-8859-1', 'UTF-8', $responseCategoria);
+        $categorias = json_decode($data, true);
+        $categorias = $categorias['categoria'];
+
+        return view('web.pages.cart', compact('categorias'));
     }
 
 }

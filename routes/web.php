@@ -21,9 +21,11 @@ Route::get('quienes-somos', [WebController::class, 'quienesSomo'])->name('quiene
 Route::get('preguntas-frecuentes', [WebController::class, 'preguntasFrecuentes'])->name('preguntas-frecuentes');
 Route::get('contactanos', [WebController::class, 'contactanos'])->name('contactanos');
 Route::get('productos/{paginaActual}', [WebController::class, 'productos'])->name('productos');
+Route::get('producto/{id}', [WebController::class, 'producto'])->name('producto');
 Route::get('cart', [WebController::class, 'cart'])->name('cart');
 
 Route::get('products/{id}/{paginaActual}', [WebController::class, 'productosCategoria'])->name('productos.categoria');
 
 
 Route::post('/cart-add', [CartController::class, 'add'])->name('cart.add');
+Route::get('/cart-remove/{id}', [CartController::class, 'remove'])->name('cart.remove');
