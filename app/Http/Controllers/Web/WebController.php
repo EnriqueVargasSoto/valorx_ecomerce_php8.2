@@ -27,7 +27,8 @@ class WebController extends Controller
         $response = Http::post($urlValorx, $data = [
             "lista_precio" => "1",
             "pagina" => 0,
-            "filtroxnombre" => ""
+            "filtroxnombre" => "",
+            "filtroxcategoria" => ""
         ]);
 
         $response = str_replace("\n", "", $response);
@@ -35,7 +36,7 @@ class WebController extends Controller
 
         $data = iconv('ISO-8859-1', 'UTF-8', $response);
         $products = json_decode($data, true);
-
+        //$products['items']
         $products = $products['items'];
 
 
