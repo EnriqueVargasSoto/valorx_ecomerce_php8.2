@@ -178,4 +178,24 @@ class WebController extends Controller
         return view('web.pages.login', compact('categorias'));
     }
 
+    public function auth(Request $request){
+        $urlLogin = 'http://www.valorx.net/XMap.Services/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23XMapLogin&Compania=0004&Sucursal=01';
+
+        $response = Http::post($urlLogin, $data = [
+            "tipologueo" => "2",
+            "usuario" => $request->usuario,
+            "password" => $request->password
+        ]);
+        $response = str_replace("\n", "", $response);
+        $response = str_replace("\r", "", $response);
+        $data = iconv('ISO-8859-1', 'UTF-8', $response);
+        $usuario = json_decode($data, true);
+
+        // Guardar el usuario en la sesión
+        session(['usuario' => $usuario]);
+
+        //dd($usuario);
+        return redirect()->route('/');
+    }
+
 }

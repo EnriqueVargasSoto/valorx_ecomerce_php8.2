@@ -31,3 +31,4 @@ Route::post('/cart-add', [CartController::class, 'add'])->name('cart.add');
 Route::get('/cart-remove/{id}', [CartController::class, 'remove'])->name('cart.remove');
 
 Route::get('login', [WebController::class, 'login'])->name('login');
+Route::post('auth', [WebController::class, 'auth'])->name('auth');
