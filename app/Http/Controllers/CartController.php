@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Cart;
+use Darryldecode\Cart\Cart as CartCart;
 use Illuminate\Support\Facades\Session;
 
 class CartController extends Controller
@@ -53,6 +54,56 @@ class CartController extends Controller
 
         Cart::remove($id);
         return back()->with('success',"$id ¡se ha eliminado con éxito al carrito!");
+
+    }
+
+    public function addUnit(Request $request){
+        //dd($request->id);
+        $item = Cart::get($request->id);
+
+        if ($item) {
+            $cantidadActual = $item->quantity;
+
+            $cantidadActual = $cantidadActual + 1;
+            //dd($cantidadActual);
+            //return "La cantidad actual del ítem $itemId es: $cantidadActual";
+
+            Cart::update($item->id, [
+                'quantity' => 1,//$cantidadActual,
+            ]);
+
+
+        }
+
+        return back()->with('success',"$item ¡se ha agregado con éxito al carrito!");
+
+    }
+
+    public function subtractUnit(Request $request){
+        $item = Cart::get($request->id);
+
+        if ($item) {
+            $cantidadActual = $item->quantity;
+
+            //return "La cantidad actual del ítem $itemId es: $cantidadActual";
+
+            if ($cantidadActual > 1 ) {
+                # code...
+                //$cantidadActual++;
+                Cart::update($item->id, [
+                    'quantity' => -1,//$cantidadActual,
+                ]);
+                return back()->with('success',"$item ¡se ha eliminado con éxito al carrito!");
+            } else {
+                # code...
+                $this->remove($item->id);
+                return back()->with('success',"$item ¡se ha eliminado con éxito al carrito!");
+            }
+
+
+
+
+        }
 
     }
 }

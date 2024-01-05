@@ -32,3 +32,8 @@ Route::get('/cart-remove/{id}', [CartController::class, 'remove'])->name('cart.r
 
 Route::get('login', [WebController::class, 'login'])->name('login');
 Route::post('auth', [WebController::class, 'auth'])->name('auth');
+Route::get('logout', [WebController::class, 'logout'])->name('logout');
+Route::post('add-unit', [CartController::class, 'addUnit'])->name('addUnit');
+Route::post('subtract-unit', [CartController::class, 'subtractUnit'])->name('subtractUnit');
+
+Route::get('checkout', [WebController::class, 'checkout'])->name('checkout');

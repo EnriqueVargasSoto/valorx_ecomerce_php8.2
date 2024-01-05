@@ -103,16 +103,26 @@
                                         <div class="quantity-price">
                                             <div class="cart_qty">
                                                 <div class="input-group">
-                                                    <button type="button" class="btn qty-left-minus"
+                                                    <form action="{{route('subtractUnit')}}" method="post" >
+                                                        @csrf
+                                                            <input type="text" value="{{$item->id}}" name="id" hidden>
+                                                        <button type="submit" class="btn qty-left-minus"
                                                         data-type="minus" data-field="">
                                                         <i class="fa fa-minus ms-0" aria-hidden="true"></i>
                                                     </button>
+                                                    </form>
+
                                                     <input class="form-control input-number qty-input" type="text"
                                                         name="quantity" value="{{$item->quantity}}">
-                                                    <button type="button" class="btn qty-right-plus"
-                                                        data-type="plus" data-field="">
-                                                        <i class="fa fa-plus ms-0" aria-hidden="true"></i>
-                                                    </button>
+                                                        <form method="POST" action="{{route('addUnit')}}">
+                                                            @csrf
+                                                            <input type="text" value="{{$item->id}}" name="id" hidden>
+                                                            <button type="submit" class="btn qty-right-plus"
+                                                            data-type="plus" data-field="">
+                                                            <i class="fa fa-plus ms-0" aria-hidden="true"></i>
+                                                        </button>
+                                                        </form>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -125,8 +135,8 @@
 
                                     <td class="save-remove">
                                         <h4 class="table-title text-content">Action</h4>
-                                        <a class="save notifi-wishlist" href="javascript:void(0)">Save for later</a>
-                                        <a class="remove close_button" href="javascript:void(0)">Remove</a>
+                                        <!--<a class="save notifi-wishlist" href="javascript:void(0)">Save for later</a>-->
+                                        <a class="remove close_button" href="{{route('cart.remove', $item->id)}}">Eliminar</a>
                                     </td>
                                 </tr>
                                 @endforeach
@@ -435,21 +445,21 @@
                     </div>
 
                     <div class="summery-contain">
-                        <div class="coupon-cart">
+                        {{--<div class="coupon-cart">
                             <h6 class="text-content mb-2">Coupon Apply</h6>
                             <div class="mb-3 coupon-box input-group">
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
                                     placeholder="Enter Coupon Code Here...">
                                 <button class="btn-apply">Apply</button>
                             </div>
-                        </div>
+                        </div>--}}
                         <ul>
                             <li>
                                 <h4>Subtotal</h4>
-                                <h4 class="price">$125.65</h4>
+                                <h4 class="price">S/. {{number_format(Cart::getTotal(), 2)}}</h4>
                             </li>
 
-                            <li>
+                            {{--<li>
                                 <h4>Coupon Discount</h4>
                                 <h4 class="price">(-) 0.00</h4>
                             </li>
@@ -457,28 +467,28 @@
                             <li class="align-items-start">
                                 <h4>Shipping</h4>
                                 <h4 class="price text-end">$6.90</h4>
-                            </li>
+                            </li>--}}
                         </ul>
                     </div>
 
                     <ul class="summery-total">
                         <li class="list-total border-top-0">
                             <h4>Total</h4>
-                            <h4 class="price theme-color">S/. {{Cart::getTotal()}}</h4>
+                            <h4 class="price theme-color">S/. {{number_format(Cart::getTotal(), 2)}}</h4>
                         </li>
                     </ul>
 
                     <div class="button-group cart-button">
                         <ul>
                             <li>
-                                <button onclick="location.href = 'checkout.html';"
-                                    class="btn btn-animation proceed-btn fw-bold">Process To Checkout</button>
+                                <button onclick="location.href = '{{route('checkout')}}';"
+                                    class="btn btn-animation proceed-btn fw-bold">Proceso de pago</button>
                             </li>
 
                             <li>
-                                <button onclick="location.href = 'index-2.html';"
+                                <button onclick="location.href = '{{route('/')}}';"
                                     class="btn btn-light shopping-button text-dark">
-                                    <i class="fa-solid fa-arrow-left-long"></i>Return To Shopping</button>
+                                    <i class="fa-solid fa-arrow-left-long"></i>Volver a compras</button>
                             </li>
                         </ul>
                     </div>

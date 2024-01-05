@@ -254,7 +254,7 @@
 
                                             <div class="button-group">
                                                 <a href="{{route('cart')}}" class="btn btn-sm cart-button">Ver Carrito</a>
-                                                <a href="#" class="btn btn-sm cart-button theme-bg-color
+                                                <a href="{{route('checkout')}}" class="btn btn-sm cart-button theme-bg-color
                                                 text-white">Verificar</a>
                                             </div>
                                         </div>
@@ -272,7 +272,7 @@
                                             <h5>Mi cuenta</h5>
                                         </div>
                                     </div>
-
+                                    @if (!session('usuario'))
                                     <div class="onhover-div onhover-div-login">
                                         <ul class="user-box-name">
                                             <li class="product-box-contain">
@@ -289,6 +289,19 @@
                                             </li>
                                         </ul>
                                     </div>
+                                    @else
+                                    <div class="onhover-div onhover-div-login">
+                                        <ul class="user-box-name">
+
+                                            <li class="product-box-contain">
+                                                <a href="{{route('logout')}}">Salir</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                    @endif
+
                                 </li>
                             </ul>
                         </div>

@@ -205,4 +205,22 @@ class WebController extends Controller
         return redirect()->route('/');
     }
 
+    public function logout(){
+        Session::forget('usuario');
+        return redirect()->route('/');
+    }
+
+    public function checkout(){
+
+        $urlCategorias = 'http://www.valorx.net/XMap.Services/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListCateg&Compania=0004&Sucursal=01';
+
+        $responseCategoria = Http::post($urlCategorias);
+        $responseCategoria = str_replace("\n", "", $responseCategoria);
+        $responseCategoria = str_replace("\r", "", $responseCategoria);
+        $data = iconv('ISO-8859-1', 'UTF-8', $responseCategoria);
+        $categorias = json_decode($data, true);
+        $categorias = $categorias['categoria'];
+
+        return view('web.pages.checkout', compact('categorias'));
+    }
 }
