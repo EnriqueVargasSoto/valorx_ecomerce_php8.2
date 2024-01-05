@@ -229,7 +229,12 @@
                                         <span>(4.0)</span>
                                     </div>
                                     <h6 class="unit">{{$product['unidad_man']}}</h6>
+                                    @if ($usuario)
                                     <h5 class="price"><span class="theme-color">S./ {{number_format($product['precio'], 2)}}</span> <!--<del>$15.15</del>-->
+                                    @else
+                                    <h5 class="price"><span class="theme-color">Logete para obetener el precio</span> <!--<del>$15.15</del>-->
+                                    @endif
+
                                     </h5>
                                     <div class="add-to-cart-box bg-white">
                                         <form action="{{route('cart.add')}}" method="post">
