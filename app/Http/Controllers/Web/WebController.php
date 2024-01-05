@@ -50,6 +50,13 @@ class WebController extends Controller
         $urlCategorias = 'http://www.valorx.net/XMap.Services/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListCateg&Compania=0004&Sucursal=01';
         $urlValorx = 'http://valorx.net/Magicxpi4.12/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23ListItems&Compania=0004&Sucursal=01';
 
+        $listaPRecio = 1;
+
+        $usuario = session('usuario');
+        //dd($usuario['listprecio']);
+        if ($usuario) {
+            $listaPRecio = $usuario['listprecio'];
+        }
         //llamada a las apis
         $responseCategoria = Http::post($urlCategorias);
         $responseCategoria = str_replace("\n", "", $responseCategoria);
@@ -60,7 +67,7 @@ class WebController extends Controller
         //dd($categorias);
 
         $response = Http::post($urlValorx, $data = [
-            "lista_precio" => "1",
+            "lista_precio" => $listaPRecio ,//"1",
             "pagina" => $paginaActual,
             "filtroxnombre" => "",
             "filtroxcategoria" => $id
