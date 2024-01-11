@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Carbon;
+use Cart;
 
 class WebController extends Controller
 {
@@ -222,5 +224,72 @@ class WebController extends Controller
         $categorias = $categorias['categoria'];
 
         return view('web.pages.checkout', compact('categorias'));
+    }
+
+    public function saveOrder(){
+        $urlSaveOrder = 'http://www.valorx.net/XMap.Services/MgWebRequester.dll?appname=IFSValorX&prgname=HTTP&arguments=-AHTTPVLXRest%23Orders&Compania=0004&Sucursal=01';
+
+        // Obtener la fecha actual
+        $fechaActual = Carbon::now();
+
+        // Formatear la fecha en el formato AAAA-mm-dd
+        $fechaFormateada = $fechaActual->format('Y-m-d');
+
+        $usuario = session('usuario');
+
+        //$items = Cart::content();
+
+        $newItems = [];
+
+        foreach (Cart::getContent() as $key => $item) {
+            //dd($item);
+            $producto = [
+                "sku" => $item->id,
+                "procedimiento" => "003",
+                "unidad_medida" => $item->attributes->unidad,
+                "cantidad_pedida" => $item->quantity,
+                "lista_precio" => $usuario['listprecio']
+            ];
+
+            array_push($newItems, $producto);
+        }
+
+        $data = [
+            "nro_pedido_origen" => "",
+            "fecha_pedido" => $fechaFormateada,
+            "vendedor" => "20202020",
+            "centro_distribucion" => "1",
+            "zona" => "10000",
+            "ruta" => "10001",
+            "forma_pago" => "001",
+            "moneda" => "PEN",
+            "fecha_entrega" => null,
+            "hora_entrega" => null,
+            "detalle_pedido" => [
+                [
+                    "cliente" => [
+                        [
+                            "nro_documento_ide" => $usuario['user_ndocid'],
+                            "tipo_documento_ide" => $usuario['user_tdocid'],
+                            "nombre_completo" => $usuario['user_name'],
+                            "direccion_fiscal" => "",
+                            "ubigeo_dirfiscal" => "100101",
+                            "direccion_despacho" => "",
+                            "ubigeo_dirdespacho" => "100101",
+                            "telefono" => $usuario['user_phone'],
+                            "modulo" => "10001",
+                            "latitud" => "",
+                            "longitud" => "",
+                            "items" => $newItems
+                        ]
+                    ]
+                ]
+            ]
+        ];
+
+        $response = Http::post($urlSaveOrder, $data);
+
+        return redirect()->route('/');
+        //dd($response->body());
     }
 }

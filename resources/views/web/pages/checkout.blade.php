@@ -134,7 +134,7 @@
                                 </div>
                             </li>
 
-                            <li>
+                            {{--<li>
                                 <div class="checkout-icon">
                                     <lord-icon target=".nav-item" src="https://cdn.lordicon.com/oaflahpk.json"
                                         trigger="loop-on-hover" colors="primary:#0baf9a" class="lord-icon">
@@ -524,7 +524,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </li>
+                            </li>--}}
                         </ul>
                     </div>
                 </div>
@@ -534,7 +534,7 @@
                 <div class="right-side-summery-box">
                     <div class="summery-box-2">
                         <div class="summery-header">
-                            <h3>Resumen del pedido/h3>
+                            <h3>Resumen del pedido</h3>
                         </div>
 
                         <ul class="summery-contain">
@@ -637,7 +637,7 @@
                         </ul>
                     </div>
 
-                    <button class="btn theme-bg-color text-white btn-md w-100 mt-4 fw-bold">Place Order</button>
+                    <a href="{{route('save.order')}}" class="btn theme-bg-color text-white btn-md w-100 mt-4 fw-bold">Place Order</a>
                 </div>
             </div>
         </div>

@@ -37,3 +37,5 @@ Route::post('add-unit', [CartController::class, 'addUnit'])->name('addUnit');
 Route::post('subtract-unit', [CartController::class, 'subtractUnit'])->name('subtractUnit');
 
 Route::get('checkout', [WebController::class, 'checkout'])->name('checkout');
+
+Route::get('save-order', [WebController::class, 'saveOrder'])->name('save.order');

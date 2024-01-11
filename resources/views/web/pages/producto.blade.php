@@ -39,8 +39,8 @@
                                     <div class="product-main no-arrow">
                                         <div>
                                             <div class="slider-image">
-                                                <img src="../assets/images/product/category/1.jpg" id="img-1"
-                                                    data-zoom-image="../assets/images/product/category/1.jpg" class="
+                                                <img src="{{$product['item_url']}}" id="img-1"
+                                                    data-zoom-image="{{$product['item_url']}}" class="
                                                     img-fluid image_zoom_cls-0 blur-up lazyload" alt="">
                                             </div>
                                         </div>
@@ -141,7 +141,7 @@
                             {{--<h6 class="offer-top">30% Off</h6>--}}
                             <h2 class="name">{{$product['item_dsc']}}</h2>
                             <div class="price-rating">
-                                <h3 class="theme-color price">S/. {{$product['precio']}} {{--<del class="text-content">$58.46</del> <span
+                                <h3 class="theme-color price">S/. {{number_format($product['precio'], 2)}} {{--<del class="text-content">$58.46</del> <span
                                         class="offer theme-color">(8% off)</span>--}}</h3>
                                 <div class="product-rating custom-rate">
                                     <ul class="rating">

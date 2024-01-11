@@ -82,24 +82,15 @@
 
                     <div class="footer-contain">
                         <ul>
-                            <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Verduras y frutas</a>
-                            </li>
-                            <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Bebidas</a>
-                            </li>
-                            <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Carnes & Mariscos</a>
-                            </li>
-                            <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Comidas Congeladas</a>
-                            </li>
-                            <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Galletas & Bocadillos/a>
-                            </li>
-                            <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Abarrotes</a>
-                            </li>
+                            @foreach ($categorias as $categoria)
+                                <li>
+                                    <a href="{{route('productos.categoria', ['id' => $categoria['categoria_dsc'], 'paginaActual' => 0])}}" class="text-content">{{$categoria['categoria_dsc']}}</a>
+                                </li>
+                                @if ($loop->index === 4)
+                                    @break
+                                @endif
+                            @endforeach
+
                         </ul>
                     </div>
                 </div>
@@ -112,20 +103,20 @@
                     <div class="footer-contain">
                         <ul>
                             <li>
-                                <a href="index-2.html" class="text-content">Inicio</a>
+                                <a href="{{route('/')}}" class="text-content">Inicio</a>
                             </li>
                             <li>
-                                <a href="shop-left-sidebar.html" class="text-content">Tienda</a>
+                                <a href="{{route('quienes-somos')}}" class="text-content">¿Quiénes Somos?</a>
                             </li>
                             <li>
-                                <a href="about-us.html" class="text-content">Sobre Nosotros</a>
+                                <a href="{{route('preguntas-frecuentes')}}" class="text-content">Preguntas Frecuentes</a>
                             </li>
                             <li>
-                                <a href="blog-list.html" class="text-content">Blog</a>
+                                <a href="{{route('contactanos')}}" class="text-content">Contáctanos</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="contact-us.html" class="text-content">Contactanos</a>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                 </div>
