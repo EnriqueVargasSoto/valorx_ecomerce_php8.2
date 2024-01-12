@@ -34,7 +34,7 @@
                 <div class="left-sidebar-checkout">
                     <div class="checkout-detail-box">
                         <ul>
-                            <li>
+                            <!--<li>
                                 <div class="checkout-icon">
                                     <lord-icon target=".nav-item" src="https://cdn.lordicon.com/ggihhudh.json"
                                         trigger="loop-on-hover"
@@ -132,7 +132,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
 
                             {{--<li>
                                 <div class="checkout-icon">

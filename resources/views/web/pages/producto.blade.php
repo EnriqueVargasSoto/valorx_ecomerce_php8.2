@@ -240,6 +240,43 @@
 
 
                             <div class="note-box product-packege">
+                                <form action="{{route('cart.add')}}" method="post">
+                                    @csrf
+                                    <input type="text" name="item_cod" hidden value="{{$product['item_cod']}}">
+                                    <input type="text" name="item_dsc" hidden value="{{$product['item_dsc']}}">
+                                    <input type="text" name="marca_cod" hidden value="{{$product['marca_cod']}}">
+                                    <input type="text" name="marca_dsc" hidden value="{{$product['marca_dsc']}}">
+                                    <input type="text" name="categoria_cod" hidden value="{{$product['categoria_cod']}}">
+                                    <input type="text" name="categoria_dsc" hidden value="{{$product['categoria_dsc']}}">
+                                    <input type="text" name="unidad_man" hidden value="{{$product['unidad_man']}}">
+                                    {{--<input type="text" name="item_status" hidden value="{{$product['item_status']}}">--}}
+                                    <input type="text" name="item_url" hidden value="{{$product['item_url']}}">
+                                    <input type="text" name="subcategoria_cod" hidden value="{{$product['subcategoria_cod']}}">
+                                    <input type="text" name="subcategoria_dsc" hidden value="{{$product['subcategoria_dsc']}}">
+                                    <input type="text" name="precio" hidden value="{{$product['precio']}}">
+                                    <input type="text" name="cantidad" hidden value="1">
+
+                                    <!--<div class="cart_qty qty-box product-qty">
+                                        <div class="input-group">
+                                            <button type="button" class="qty-right-plus" data-type="plus" data-field="">
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </button>
+                                            <input class="form-control input-number qty-input" type="text"
+                                                name="cantidad" value="0">
+                                            <button type="button" class="qty-left-minus" data-type="minus"
+                                                data-field="">
+                                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </div>-->
+
+
+                                    <button type="submit"
+                                        class="btn btn-md bg-dark cart-button text-white w-100">Add To Cart</button>
+                                </form>
+                            </div>
+
+                            {{--<div class="note-box product-packege">
                                 <div class="cart_qty qty-box product-qty">
                                     <div class="input-group">
                                         <button type="button" class="qty-right-plus" data-type="plus" data-field="">
@@ -256,7 +293,7 @@
 
                                 <button onclick="location.href = 'cart.html';"
                                     class="btn btn-md bg-dark cart-button text-white w-100">Add To Cart</button>
-                            </div>
+                            </div>--}}
 
                             {{--<div class="buy-box">
                                 <a href="wishlist.html">
