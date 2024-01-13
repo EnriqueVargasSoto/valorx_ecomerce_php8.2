@@ -9,6 +9,7 @@ use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Carbon;
 use Cart;
+use Darryldecode\Cart\Cart as CartCart;
 
 class WebController extends Controller
 {
@@ -288,7 +289,7 @@ class WebController extends Controller
         ];
 
         $response = Http::post($urlSaveOrder, $data);
-
+        Cart::clear();
         return redirect()->route('/');
         //dd($response->body());
     }
